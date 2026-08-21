@@ -1,6 +1,3 @@
-# Target Company Universe (Derived from Master Target List PDF)
-# Total Companies: 352
-
 companies:
 - name: Adobe
   category: Big Tech / Global Product
@@ -49,8 +46,9 @@ companies:
   priority: S
   target_roles: SWE, AI, Data
   career_url: https://www.linkedin.com/company/linkedin/jobs/
-  ats: unknown
-  active: false
+  ats: greenhouse
+  active: true
+  slug: linkedin
 - name: Meta
   category: Big Tech / Global Product
   priority: S
@@ -92,8 +90,9 @@ companies:
   priority: S
   target_roles: SWE, Platform, AI
   career_url: https://careers.servicenow.com/
-  ats: unknown
-  active: false
+  ats: smartrecruiters
+  active: true
+  slug: servicenow
 - name: Stripe
   category: Big Tech / Global Product
   priority: S
@@ -129,8 +128,9 @@ companies:
   priority: A
   target_roles: SWE, Data, ML
   career_url: https://careers.airbnb.com/
-  ats: unknown
-  active: false
+  ats: greenhouse
+  active: true
+  slug: airbnb
 - name: Autodesk
   category: Big Tech / Global Product
   priority: A
@@ -157,8 +157,9 @@ companies:
   priority: A
   target_roles: SWE, Frontend, AI
   career_url: https://www.canva.com/careers/
-  ats: unknown
-  active: false
+  ats: smartrecruiters
+  active: true
+  slug: canva
 - name: Cisco
   category: Big Tech / Global Product
   priority: A
@@ -171,29 +172,33 @@ companies:
   priority: A
   target_roles: SWE, Systems, Security
   career_url: https://www.cloudflare.com/careers/
-  ats: unknown
-  active: false
+  ats: greenhouse
+  active: true
+  slug: cloudflare
 - name: Confluent
   category: Big Tech / Global Product
   priority: A
   target_roles: SWE, Distributed Systems
   career_url: https://www.confluent.io/careers/
-  ats: unknown
-  active: false
+  ats: ashby
+  active: true
+  slug: confluent
 - name: Datadog
   category: Big Tech / Global Product
   priority: A
   target_roles: SWE, Platform, Backend
   career_url: https://careers.datadoghq.com/
-  ats: unknown
-  active: false
+  ats: greenhouse
+  active: true
+  slug: datadog
 - name: Elastic
   category: Big Tech / Global Product
   priority: A
   target_roles: SWE, Search, Cloud
   career_url: https://www.elastic.co/about/careers
-  ats: unknown
-  active: false
+  ats: greenhouse
+  active: true
+  slug: elastic
 - name: Expedia Group
   category: Big Tech / Global Product
   priority: A
@@ -234,8 +239,9 @@ companies:
   priority: A
   target_roles: SWE, Security, Cloud
   career_url: https://www.okta.com/company/careers/
-  ats: unknown
-  active: false
+  ats: greenhouse
+  active: true
+  slug: okta
 - name: Oracle
   category: Big Tech / Global Product
   priority: A
@@ -262,8 +268,9 @@ companies:
   priority: A
   target_roles: SWE, Data, Cloud
   career_url: https://careers.snowflake.com/
-  ats: unknown
-  active: false
+  ats: ashby
+  active: true
+  slug: snowflake
 - name: Twilio
   category: Big Tech / Global Product
   priority: A
@@ -305,8 +312,9 @@ companies:
   priority: S
   target_roles: SDE, Backend, Data
   career_url: https://www.meesho.io/jobs
-  ats: unknown
-  active: false
+  ats: lever
+  active: true
+  slug: meesho
 - name: Myntra
   category: Indian Product / Unicorn
   priority: S
@@ -319,8 +327,9 @@ companies:
   priority: S
   target_roles: SDE, Backend, Data, ML
   career_url: https://careers.swiggy.com/
-  ats: unknown
-  active: false
+  ats: smartrecruiters
+  active: true
+  slug: swiggy
 - name: Zepto
   category: Indian Product / Unicorn
   priority: S
@@ -403,8 +412,9 @@ companies:
   priority: A
   target_roles: SWE, Backend, Data
   career_url: https://www.navi.com/careers
-  ats: unknown
-  active: false
+  ats: ashby
+  active: true
+  slug: navi
 - name: Nykaa
   category: Indian Product / Unicorn
   priority: A
@@ -459,8 +469,9 @@ companies:
   priority: A
   target_roles: SWE, Backend, Data
   career_url: https://porter.in/careers
-  ats: unknown
-  active: false
+  ats: lever
+  active: true
+  slug: porter
 - name: Rapido
   category: Indian Product / Unicorn
   priority: A
@@ -522,8 +533,9 @@ companies:
   priority: A
   target_roles: SWE, Full Stack, Backend
   career_url: https://www.ixigo.com/careers
-  ats: unknown
-  active: false
+  ats: smartrecruiters
+  active: true
+  slug: ixigo
 - name: upGrad
   category: Indian Product / Unicorn
   priority: A
@@ -557,8 +569,9 @@ companies:
   priority: S
   target_roles: SWE, Backend, Full Stack
   career_url: https://careers.cred.club/
-  ats: unknown
-  active: false
+  ats: lever
+  active: true
+  slug: cred
 - name: Groww
   category: Fintech / Payments
   priority: S
@@ -630,15 +643,17 @@ companies:
   priority: A
   target_roles: SWE, Full Stack, Backend
   career_url: https://fampay.in/careers
-  ats: unknown
-  active: false
+  ats: lever
+  active: true
+  slug: fampay
 - name: Fi
   category: Fintech / Payments
   priority: A
   target_roles: SWE, Backend, Product
   career_url: https://fi.money/careers
-  ats: unknown
-  active: false
+  ats: lever
+  active: true
+  slug: fi
 - name: Jupiter
   category: Fintech / Payments
   priority: A
@@ -686,8 +701,9 @@ companies:
   priority: A
   target_roles: SWE, Backend, Payments
   career_url: https://paytm.com/careers
-  ats: unknown
-  active: false
+  ats: lever
+  active: true
+  slug: paytm
 - name: Perfios
   category: Fintech / Payments
   priority: A
@@ -721,15 +737,17 @@ companies:
   priority: A
   target_roles: SWE, Backend, FinTech
   career_url: https://sliceit.com/careers
-  ats: unknown
-  active: false
+  ats: greenhouse
+  active: true
+  slug: slice
 - name: Upstox
   category: Fintech / Payments
   priority: A
   target_roles: SWE, Backend, Data
   career_url: https://upstox.com/careers/
-  ats: unknown
-  active: false
+  ats: smartrecruiters
+  active: true
+  slug: upstox
 - name: 5paisa
   category: Fintech / Payments
   priority: B
@@ -830,8 +848,9 @@ companies:
   priority: S
   target_roles: AI, SWE, ML
   career_url: https://www.observe.ai/careers
-  ats: unknown
-  active: false
+  ats: greenhouse
+  active: true
+  slug: observeai
 - name: Postman
   category: SaaS / Developer Tools
   priority: S
@@ -881,8 +900,9 @@ companies:
   priority: A
   target_roles: SWE, AI, Backend
   career_url: https://atomicwork.com/careers
-  ats: unknown
-  active: false
+  ats: greenhouse
+  active: true
+  slug: atomicwork
 - name: BrowserUse
   category: SaaS / Developer Tools
   priority: A
@@ -917,8 +937,9 @@ companies:
   priority: A
   target_roles: SWE, Cloud, Backend
   career_url: https://www.druva.com/about/careers
-  ats: unknown
-  active: false
+  ats: greenhouse
+  active: true
+  slug: druva
 - name: Gupshup
   category: SaaS / Developer Tools
   priority: A
@@ -939,8 +960,9 @@ companies:
   priority: A
   target_roles: SWE, AI, Backend
   career_url: https://www.highradius.com/careers/
-  ats: unknown
-  active: false
+  ats: greenhouse
+  active: true
+  slug: highradius
 - name: Icertis
   category: SaaS / Developer Tools
   priority: A
@@ -960,8 +982,9 @@ companies:
   priority: A
   target_roles: SWE, Full Stack, AI
   career_url: https://www.mindtickle.com/careers/
-  ats: unknown
-  active: false
+  ats: lever
+  active: true
+  slug: mindtickle
 - name: MoEngage
   category: SaaS / Developer Tools
   priority: A
@@ -974,8 +997,9 @@ companies:
   priority: A
   target_roles: SWE, Full Stack, AI
   career_url: https://www.spotdraft.com/careers
-  ats: unknown
-  active: false
+  ats: ashby
+  active: true
+  slug: spotdraft
 - name: Sprinklr
   category: SaaS / Developer Tools
   priority: A
@@ -1005,8 +1029,9 @@ companies:
   priority: A
   target_roles: AI, ML Platform, SWE
   career_url: https://www.truefoundry.com/careers
-  ats: unknown
-  active: false
+  ats: greenhouse
+  active: true
+  slug: truefoundry
 - name: Unbox Robotics
   category: SaaS / Developer Tools
   priority: A
@@ -1019,8 +1044,9 @@ companies:
   priority: A
   target_roles: SWE, Full Stack, AI
   career_url: https://whatfix.com/company/careers/
-  ats: unknown
-  active: false
+  ats: smartrecruiters
+  active: true
+  slug: whatfix
 - name: Wingify
   category: SaaS / Developer Tools
   priority: A
@@ -1090,8 +1116,9 @@ companies:
   priority: S
   target_roles: AI Agents, SWE
   career_url: https://www.cognition.ai/careers
-  ats: unknown
-  active: false
+  ats: ashby
+  active: true
+  slug: cognition
 - name: Cohere
   category: AI / ML / GenAI
   priority: S
@@ -1113,15 +1140,17 @@ companies:
   priority: S
   target_roles: AI, Speech, SWE
   career_url: https://elevenlabs.io/careers
-  ats: unknown
-  active: false
+  ats: ashby
+  active: true
+  slug: elevenlabs
 - name: Ema
   category: AI / ML / GenAI
   priority: S
   target_roles: AI Agents, SWE
   career_url: https://www.ema.co/careers
-  ats: unknown
-  active: false
+  ats: ashby
+  active: true
+  slug: ema
 - name: Google DeepMind
   category: AI / ML / GenAI
   priority: S
@@ -1156,8 +1185,9 @@ companies:
   priority: S
   target_roles: LLM, AI, SWE
   career_url: https://www.langchain.com/careers
-  ats: unknown
-  active: false
+  ats: ashby
+  active: true
+  slug: langchain
 - name: Microsoft AI
   category: AI / ML / GenAI
   priority: S
@@ -1184,15 +1214,17 @@ companies:
   priority: S
   target_roles: CV, ML, SWE
   career_url: https://www.netradyne.com/careers
-  ats: unknown
-  active: false
+  ats: greenhouse
+  active: true
+  slug: netradyne
 - name: OpenAI
   category: AI / ML / GenAI
   priority: S
   target_roles: AI, SWE, Research
   career_url: https://openai.com/careers/
-  ats: unknown
-  active: false
+  ats: ashby
+  active: true
+  slug: openai
 - name: Perplexity
   category: AI / ML / GenAI
   priority: S
@@ -1237,8 +1269,9 @@ companies:
   priority: S
   target_roles: AI Agents, SWE
   career_url: https://sierra.ai/careers
-  ats: unknown
-  active: false
+  ats: ashby
+  active: true
+  slug: sierra
 - name: Together AI
   category: AI / ML / GenAI
   priority: S
@@ -1266,8 +1299,9 @@ companies:
   priority: A
   target_roles: AI Infra, Python, SWE
   career_url: https://www.anyscale.com/careers
-  ats: unknown
-  active: false
+  ats: ashby
+  active: true
+  slug: anyscale
 - name: Arya.ai
   category: AI / ML / GenAI
   priority: A
@@ -1323,8 +1357,9 @@ companies:
   priority: A
   target_roles: Generative AI, ML
   career_url: https://runwayml.com/careers
-  ats: unknown
-  active: false
+  ats: ashby
+  active: true
+  slug: runway
 - name: SigTuple
   category: AI / ML / GenAI
   priority: A
@@ -1337,15 +1372,17 @@ companies:
   priority: A
   target_roles: Generative AI, ML
   career_url: https://stability.ai/careers
-  ats: unknown
-  active: false
+  ats: greenhouse
+  active: true
+  slug: stabilityai
 - name: Writer
   category: AI / ML / GenAI
   priority: A
   target_roles: GenAI, SWE, Platform
   career_url: https://writer.com/careers/
-  ats: unknown
-  active: false
+  ats: ashby
+  active: true
+  slug: writer
 - name: CoRover
   category: AI / ML / GenAI
   priority: B
@@ -1386,8 +1423,9 @@ companies:
   priority: S
   target_roles: FinTech, SWE, Backend
   career_url: https://www.zeta.tech/careers
-  ats: unknown
-  active: false
+  ats: lever
+  active: true
+  slug: zeta
 - name: Amagi India
   category: India Startups / Growth Tech
   priority: A
@@ -1442,8 +1480,9 @@ companies:
   priority: A
   target_roles: Cybersecurity, AI, SWE
   career_url: https://www.cloudsek.com/careers
-  ats: unknown
-  active: false
+  ats: greenhouse
+  active: true
+  slug: cloudsek
 - name: Cogoport
   category: India Startups / Growth Tech
   priority: A
@@ -1477,8 +1516,9 @@ companies:
   priority: A
   target_roles: SWE, AI, Product
   career_url: https://glance.com/careers
-  ats: unknown
-  active: false
+  ats: greenhouse
+  active: true
+  slug: glance
 - name: Khatabook
   category: India Startups / Growth Tech
   priority: A
@@ -1702,8 +1742,9 @@ companies:
   priority: B
   target_roles: SWE, Full Stack, SaaS
   career_url: https://www.flock.com/careers
-  ats: unknown
-  active: false
+  ats: ashby
+  active: true
+  slug: flock
 - name: Flock Safety India
   category: India Startups / Growth Tech
   priority: B
@@ -1989,8 +2030,9 @@ companies:
   priority: A
   target_roles: Digital, AI, SWE
   career_url: https://careers.bcg.com/
-  ats: unknown
-  active: false
+  ats: greenhouse
+  active: true
+  slug: bcg
 - name: Coforge
   category: Consulting / IT
   priority: A

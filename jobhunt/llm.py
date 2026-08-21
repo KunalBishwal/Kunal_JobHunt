@@ -13,9 +13,11 @@ from __future__ import annotations
 import json
 import os
 import re
+import time
 from typing import Any
 
 from .fetch import Job
+
 from .providers import LLMError, Provider, get_provider, resolve
 
 _FENCE_OPEN = re.compile(r"^\s*```(?:json|JSON)?\s*", re.M)
@@ -152,12 +154,21 @@ def _complete_with_fallback(
     max_tokens: int,
     json_mode: bool = True,
 ) -> str:
-    """Execute LLM completion with automatic fallback to Groq or Gemini on failure."""
+    """Execute LLM completion with automatic 429 retry and fallback to Groq or Gemini on failure."""
     try:
         return provider.complete(model, system, user, max_tokens, json_mode=json_mode)
     except Exception as primary_err:
         if getattr(provider, "name", "") in ("stub", "mock", "test"):
             raise primary_err
+
+        # If primary hit a rate limit (429), wait 12 seconds and retry once
+        if "429" in str(primary_err) or "rate" in str(primary_err).lower() or "quota" in str(primary_err).lower():
+            try:
+                print(f"  ! {getattr(provider, 'name', 'provider')} rate limited -> waiting 12s before retry...")
+                time.sleep(12)
+                return provider.complete(model, system, user, max_tokens, json_mode=json_mode)
+            except Exception as retry_err:
+                primary_err = retry_err
 
         # Check if backup provider (Groq or Gemini) is available
         backup_provider_name = None
@@ -193,7 +204,8 @@ def screen(jobs: list[Job], profile: dict, batch_size: int = 8, jd_chars: int = 
     batch_size = max(1, int(batch_size))
     profile_blob = json.dumps(profile, ensure_ascii=False)
 
-    for start in range(0, len(jobs), batch_size):
+    total_batches = (len(jobs) + batch_size - 1) // batch_size
+    for idx, start in enumerate(range(0, len(jobs), batch_size)):
         batch = jobs[start:start + batch_size]
         payload = [{
             "job_id": j.job_id,
@@ -203,7 +215,7 @@ def screen(jobs: list[Job], profile: dict, batch_size: int = 8, jd_chars: int = 
             "description": j.description[:jd_chars],
         } for j in batch]
 
-        n = start // batch_size + 1
+        n = idx + 1
         try:
             raw = _complete_with_fallback(
                 provider, model, SCREEN_SYSTEM,
@@ -231,6 +243,8 @@ def screen(jobs: list[Job], profile: dict, batch_size: int = 8, jd_chars: int = 
             j.reason = str(r.get("reason", "")).strip()
 
         print(f"  screened {min(start + batch_size, len(jobs))}/{len(jobs)}")
+        if idx < total_batches - 1 and getattr(provider, "name", "") not in ("stub", "mock", "test"):
+            time.sleep(2.5)
 
     return jobs
 
@@ -286,7 +300,10 @@ def draft(jobs: list[Job], profile: dict, jd_chars: int = 6000,
                 "questions_to_ask": [str(q) for q in (kit.get("questions_to_ask") or [])],
             }
             print(f"  drafted {j.title} @ {j.company}")
+            if getattr(provider, "name", "") not in ("stub", "mock", "test"):
+                time.sleep(2.0)
         except (LLMError, ValueError, KeyError, TypeError) as e:
+
             print(f"  ! draft failed for {j.job_id} ({type(e).__name__}: {e})")
             j.draft = {k: ("" if k in ("fit_summary", "cover_note") else []) for k in DRAFT_KEYS}
 
