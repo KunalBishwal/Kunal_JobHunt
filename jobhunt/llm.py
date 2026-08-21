@@ -123,27 +123,26 @@ def build_profile(resume_bytes: bytes | None = None, resume_text: str | None = N
 
 # ----------------------------------------------------------------- screen ---
 
-SCREEN_SYSTEM = """You screen job postings for one candidate. You are strict.
+SCREEN_SYSTEM = """You screen job postings for this candidate.
+The candidate is a high-performing Computer Science student (9.65 CGPA) targeting:
+- Software Engineering & SDE Internships (Primary target)
+- Full Stack, AI/ML, Backend, and Frontend Developer Internships
+- Entry-Level, Graduate, Junior, Associate, and SDE-1 roles (0-2 YoE) with strong stack overlap (Python, TypeScript, React, Next.js, Node.js, Java, Docker, AWS, PostgreSQL, PyTorch, AI/ML).
 
 Score 0-10 on genuine fit:
-  9-10  strong match, candidate clears the bar and the role is a step up
-  7-8   good match, worth applying
-  5-6   plausible but real gaps
-  0-4   wrong seniority, wrong stack, or a hard requirement the candidate lacks
+  9-10  Direct internship or entry-level match with strong tech stack and domain overlap
+  7-8   Good match (SDE-1, junior, early-career engineer, or startup role with high skill overlap)
+  5-6   Stretch opportunity (1-2 YoE requested, but candidate has direct project/skill overlap)
+  0-4   Severe mismatch: Senior/Staff/Lead/Principal (5+ YoE), non-technical role, or hard blocker
 
-Seniority mismatch is the most common failure: a 3-year engineer scoring an 8
-on a Staff role is wrong. Penalise it hard, in both directions — a senior
-engineer does not want an internship either. Do the same for hard requirements
-the candidate plainly does not meet: security clearance, a specific degree, a
-named technology with a year count they cannot hit, or a country they cannot
-work in.
-
-Do not inflate scores to be encouraging. Most postings are a 4.
+Do not reject roles just because the posting mentions 1-2 years of experience if the candidate's core stack matches. Internships and early-career engineering positions should score 7-10.
+Penalise Staff/Senior/Lead roles (5+ YoE) and management roles to 0-3.
 
 Return ONLY a JSON array, one object per job, no prose:
 [{"job_id": str, "score": number, "reason": str}]
 Echo `job_id` back exactly as given. `reason` is one sentence, max 20 words,
 concrete about the deciding factor."""
+
 
 
 def _complete_with_fallback(

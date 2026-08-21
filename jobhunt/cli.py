@@ -233,14 +233,15 @@ def cmd_run(args) -> int:
     print(f"  wrote {path}")
 
     sent = False
-    if args.send and selected_jobs:
+    if args.send:
         try:
             mailer.send(subject, doc)
             sent = True
         except Exception as e:
             print(f"  ! email failed ({type(e).__name__}: {e}) — digest saved to {path}")
-    elif not args.send:
+    else:
         print("  --send not passed, email skipped")
+
 
     # Mark ONLY selected emailed jobs as notified
     store.record_notified(selected_jobs, emailed=(sent or (not args.send and bool(selected_jobs))))
