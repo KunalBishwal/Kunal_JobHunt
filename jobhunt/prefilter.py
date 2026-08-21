@@ -12,6 +12,20 @@ from .fetch import Job
 
 REMOTE_HINTS = ("remote", "anywhere", "work from home", "wfh", "distributed")
 
+# If a location string contains "remote" but ALSO contains one of these
+# country/region tokens and does NOT contain "india", the role is for a specific
+# non-India geography and should be dropped.
+NON_INDIA_GEO = re.compile(
+    r"\b(?:united states|usa?\b|u\.s\.?|canada|uk\b|united kingdom|europe|eu\b|"
+    r"emea|latam|apac|australia|germany|france|spain|ireland|israel|japan|"
+    r"singapore|estonia|netherlands|switzerland|brazil|mexico|poland|"
+    r"czech|romania|portugal|south korea|turkey|argentina|colombia|"
+    r"chile|peru|belgium|austria|sweden|denmark|norway|finland|italy|"
+    r"new zealand|south africa|philippines|taiwan|hong kong|china\b|"
+    r"vietnam|thailand|indonesia|malaysia)\b",
+    re.IGNORECASE,
+)
+
 
 def _any_match(patterns: list[str], text: str) -> bool:
     return any(re.search(p, text, re.I) for p in patterns)
@@ -28,6 +42,23 @@ def _parse_date(value: str | None) -> datetime | None:
         except ValueError:
             continue
     return None
+
+
+def _is_india_accessible_remote(location: str) -> bool:
+    """Return True if a 'remote' location is India-accessible.
+
+    Rules:
+    - "Remote" alone (no country qualifier) → True
+    - "Remote - India", "Remote, Bengaluru" → True
+    - "Remote - US", "Remote - Estonia" → False
+    """
+    loc_lower = location.lower()
+    if "india" in loc_lower:
+        return True
+    # If no specific non-India geography is mentioned, assume global remote
+    if NON_INDIA_GEO.search(loc_lower):
+        return False
+    return True
 
 
 def prefilter(jobs: list[Job], cfg: dict) -> list[Job]:
@@ -47,7 +78,12 @@ def prefilter(jobs: list[Job], cfg: dict) -> list[Job]:
         if locs:
             hay = f"{j.location} {j.title}".lower()
             is_remote = allow_remote and any(h in hay for h in REMOTE_HINTS)
-            if not is_remote and not any(l in hay for l in locs):
+            if is_remote:
+                # Further check: is the remote role India-accessible?
+                if not _is_india_accessible_remote(j.location):
+                    stats["location"] += 1
+                    continue
+            elif not any(l in hay for l in locs):
                 stats["location"] += 1
                 continue
 
@@ -62,3 +98,4 @@ def prefilter(jobs: list[Job], cfg: dict) -> list[Job]:
     print(f"  prefilter: {len(jobs)} -> {len(kept)} "
           f"(dropped title={stats['title']} location={stats['location']} stale={stats['age']})")
     return kept
+

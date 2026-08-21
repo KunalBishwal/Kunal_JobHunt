@@ -124,24 +124,32 @@ def build_profile(resume_bytes: bytes | None = None, resume_text: str | None = N
 # ----------------------------------------------------------------- screen ---
 
 SCREEN_SYSTEM = """You screen job postings for this candidate.
-The candidate is a high-performing Computer Science student (9.65 CGPA) targeting:
-- Software Engineering & SDE Internships (Primary target)
-- Full Stack, AI/ML, Backend, and Frontend Developer Internships
-- Entry-Level, Graduate, Junior, Associate, and SDE-1 roles (0-2 YoE) with strong stack overlap (Python, TypeScript, React, Next.js, Node.js, Java, Docker, AWS, PostgreSQL, PyTorch, AI/ML).
 
-Score 0-10 on genuine fit:
-  9-10  Direct internship or entry-level match with strong tech stack and domain overlap
-  7-8   Good match (SDE-1, junior, early-career engineer, or startup role with high skill overlap)
-  5-6   Stretch opportunity (1-2 YoE requested, but candidate has direct project/skill overlap)
-  0-4   Severe mismatch: Senior/Staff/Lead/Principal (5+ YoE), non-technical role, or hard blocker
+CANDIDATE CONTEXT:
+- High-performing B.Tech CS student (9.65 CGPA, graduating 2027) based in INDIA
+- Tech stack: Python, React, Next.js, TypeScript, Node.js, Java, Docker, AWS, PostgreSQL, Flask, PyTorch, TensorFlow, AI/ML
+- Has built: production REST APIs, full-stack web apps, CNN-based classification systems
+- Seeking: Internships (primary) or Entry-Level / SDE-1 / Junior / Associate / Graduate roles (0-2 YoE)
 
-Do not reject roles just because the posting mentions 1-2 years of experience if the candidate's core stack matches. Internships and early-career engineering positions should score 7-10.
-Penalise Staff/Senior/Lead roles (5+ YoE) and management roles to 0-3.
+SCORING RULES (0-10):
+  9-10  Internship or new-grad role in India with strong stack overlap
+  8-9   SDE-1 / entry-level (0-1 YoE) in India with good stack fit
+  7-8   Early-career role (1-2 YoE) in India with matching tech; OR global remote internship
+  6-7   Decent match but slight gaps (e.g., needs 2 YoE but stack aligns well)
+  5-6   Stretch role (2-3 YoE asked, partial stack match, or location uncertainty)
+  0-4   Senior/Staff/Lead/Principal (5+ YoE), non-tech, hard location blocker, or severe stack mismatch
+
+IMPORTANT:
+- Internship roles matching the candidate's stack should ALWAYS score 8+
+- Do NOT reject roles asking 0-2 YoE if the candidate's skills directly match
+- Roles explicitly in India or Remote-India score higher than ambiguous locations
+- Give a MEANINGFUL score — most intern/entry-level roles with stack overlap should score 7-9
 
 Return ONLY a JSON array, one object per job, no prose:
 [{"job_id": str, "score": number, "reason": str}]
 Echo `job_id` back exactly as given. `reason` is one sentence, max 20 words,
 concrete about the deciding factor."""
+
 
 
 

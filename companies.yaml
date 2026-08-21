@@ -2541,3 +2541,64 @@ companies:
   career_url: https://turso.tech/careers
   ats: unknown
   active: false
+
+# =========================================================================
+# NEW BOARDS — discovered 2026-08-21
+# =========================================================================
+
+- name: Coinbase
+  category: Big Tech / Global Product
+  priority: A
+  target_roles: SWE, Backend, Crypto, Intern
+  career_url: https://www.coinbase.com/careers
+  ats: greenhouse
+  slug: coinbase
+  active: true
+- name: Figma
+  category: Big Tech / Global Product
+  priority: S
+  target_roles: SWE, Full Stack, Frontend, Intern
+  career_url: https://www.figma.com/careers/
+  ats: greenhouse
+  slug: figma
+  active: true
+- name: Notion
+  category: Big Tech / Global Product
+  priority: S
+  target_roles: SWE, Full Stack, AI, Intern
+  career_url: https://www.notion.so/careers
+  ats: ashby
+  slug: notion
+  active: true
+- name: ThoughtWorks
+  category: Indian Tech / Consulting
+  priority: A
+  target_roles: SWE, Full Stack, Backend, Intern
+  career_url: https://www.thoughtworks.com/careers
+  ats: greenhouse
+  slug: thoughtworks
+  active: true
+- name: Sigmoid
+  category: Indian Tech / Analytics
+  priority: A
+  target_roles: AI/ML, Data, SWE, Intern
+  career_url: https://www.sigmoid.com/careers/
+  ats: greenhouse
+  slug: sigmoid
+  active: true
+- name: Airtable
+  category: Big Tech / Global Product
+  priority: A
+  target_roles: SWE, Full Stack, Backend, Intern
+  career_url: https://airtable.com/careers
+  ats: greenhouse
+  slug: airtable
+  active: true
+- name: NoBroker
+  category: Indian Unicorns / Consumer Tech
+  priority: A
+  target_roles: SWE, Full Stack, Backend, Intern
+  career_url: https://www.nobroker.in/careers
+  ats: smartrecruiters
+  slug: NoBroker
+  active: true
