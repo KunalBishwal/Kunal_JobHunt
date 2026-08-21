@@ -165,10 +165,10 @@ def _complete_with_fallback(
         p_name = getattr(provider, "name", "")
         if p_name != "groq" and os.getenv("GROQ_API_KEY"):
             backup_provider_name = "groq"
-            backup_model = "llama-3.3-70b-versatile"
+            backup_model = "qwen/qwen3.6-27b"
         elif p_name != "gemini" and os.getenv("GEMINI_API_KEY"):
             backup_provider_name = "gemini"
-            backup_model = "gemini-2.0-flash"
+            backup_model = "gemini-3.6-flash"
 
         if backup_provider_name and backup_model:
             try:

@@ -58,11 +58,11 @@ jobs:
 
       - name: Run the pipeline
         env:
-          LLM_PROVIDER: ${{ vars.LLM_PROVIDER }}
+          LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'gemini' }}
           SCREEN_PROVIDER: ${{ vars.SCREEN_PROVIDER }}
           DRAFT_PROVIDER: ${{ vars.DRAFT_PROVIDER }}
-          SCREEN_MODEL: ${{ vars.SCREEN_MODEL }}
-          DRAFT_MODEL: ${{ vars.DRAFT_MODEL }}
+          SCREEN_MODEL: ${{ vars.SCREEN_MODEL || 'gemini-3.6-flash' }}
+          DRAFT_MODEL: ${{ vars.DRAFT_MODEL || 'gemini-3.6-flash' }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
