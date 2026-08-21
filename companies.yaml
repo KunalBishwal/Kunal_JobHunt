@@ -1,0 +1,2501 @@
+# Target Company Universe (Derived from Master Target List PDF)
+# Total Companies: 352
+
+companies:
+- name: Adobe
+  category: Big Tech / Global Product
+  priority: S
+  target_roles: SWE, AI/ML, Web
+  career_url: https://careers.adobe.com/
+  ats: unknown
+  active: false
+- name: Amazon
+  category: Big Tech / Global Product
+  priority: S
+  target_roles: SDE, ML, Cloud, Intern
+  career_url: https://www.amazon.jobs/
+  ats: unknown
+  active: false
+- name: Apple
+  category: Big Tech / Global Product
+  priority: S
+  target_roles: SWE, ML, Systems, Intern
+  career_url: https://jobs.apple.com/
+  ats: unknown
+  active: false
+- name: Atlassian
+  category: Big Tech / Global Product
+  priority: S
+  target_roles: SWE, Platform, Intern
+  career_url: https://www.atlassian.com/company/careers
+  ats: unknown
+  active: false
+- name: Google
+  category: Big Tech / Global Product
+  priority: S
+  target_roles: SDE, AI/ML, SWE Intern
+  career_url: https://www.google.com/about/careers/applications/
+  ats: unknown
+  active: false
+- name: Intuit
+  category: Big Tech / Global Product
+  priority: S
+  target_roles: SWE, AI, FinTech
+  career_url: https://www.intuit.com/careers/
+  ats: unknown
+  active: false
+- name: LinkedIn
+  category: Big Tech / Global Product
+  priority: S
+  target_roles: SWE, AI, Data
+  career_url: https://www.linkedin.com/company/linkedin/jobs/
+  ats: unknown
+  active: false
+- name: Meta
+  category: Big Tech / Global Product
+  priority: S
+  target_roles: SWE, AI/ML, Intern
+  career_url: https://www.metacareers.com/
+  ats: unknown
+  active: false
+- name: Microsoft
+  category: Big Tech / Global Product
+  priority: S
+  target_roles: SDE, AI, Cloud, Intern
+  career_url: https://careers.microsoft.com/
+  ats: unknown
+  active: false
+- name: MongoDB
+  category: Big Tech / Global Product
+  priority: S
+  target_roles: SWE, Database, Cloud
+  career_url: https://www.mongodb.com/careers
+  ats: greenhouse
+  active: true
+  slug: mongodb
+- name: NVIDIA
+  category: Big Tech / Global Product
+  priority: S
+  target_roles: AI/ML, Software, CUDA
+  career_url: https://www.nvidia.com/en-us/about-nvidia/careers/
+  ats: unknown
+  active: false
+- name: Salesforce
+  category: Big Tech / Global Product
+  priority: S
+  target_roles: SWE, AI, Cloud, Intern
+  career_url: https://careers.salesforce.com/
+  ats: unknown
+  active: false
+- name: ServiceNow
+  category: Big Tech / Global Product
+  priority: S
+  target_roles: SWE, Platform, AI
+  career_url: https://careers.servicenow.com/
+  ats: unknown
+  active: false
+- name: Stripe
+  category: Big Tech / Global Product
+  priority: S
+  target_roles: SWE, Backend, Infrastructure
+  career_url: https://stripe.com/jobs
+  ats: greenhouse
+  active: true
+  slug: stripe
+- name: Uber
+  category: Big Tech / Global Product
+  priority: S
+  target_roles: SWE, Backend, ML
+  career_url: https://www.uber.com/careers/
+  ats: greenhouse
+  active: true
+  slug: uber
+- name: Walmart Global Tech
+  category: Big Tech / Global Product
+  priority: S
+  target_roles: SWE, Cloud, Data
+  career_url: https://careers.walmart.com/
+  ats: unknown
+  active: false
+- name: AMD
+  category: Big Tech / Global Product
+  priority: A
+  target_roles: Software, AI, Systems
+  career_url: https://careers.amd.com/
+  ats: unknown
+  active: false
+- name: Airbnb
+  category: Big Tech / Global Product
+  priority: A
+  target_roles: SWE, Data, ML
+  career_url: https://careers.airbnb.com/
+  ats: unknown
+  active: false
+- name: Autodesk
+  category: Big Tech / Global Product
+  priority: A
+  target_roles: SWE, Cloud, AI
+  career_url: https://www.autodesk.com/careers
+  ats: unknown
+  active: false
+- name: Booking.com
+  category: Big Tech / Global Product
+  priority: A
+  target_roles: SWE, Backend, ML
+  career_url: https://careers.booking.com/
+  ats: unknown
+  active: false
+- name: Broadcom
+  category: Big Tech / Global Product
+  priority: A
+  target_roles: Software, Systems, Cloud
+  career_url: https://www.broadcom.com/company/careers
+  ats: unknown
+  active: false
+- name: Canva
+  category: Big Tech / Global Product
+  priority: A
+  target_roles: SWE, Frontend, AI
+  career_url: https://www.canva.com/careers/
+  ats: unknown
+  active: false
+- name: Cisco
+  category: Big Tech / Global Product
+  priority: A
+  target_roles: SWE, Networking, Security
+  career_url: https://jobs.cisco.com/
+  ats: unknown
+  active: false
+- name: Cloudflare
+  category: Big Tech / Global Product
+  priority: A
+  target_roles: SWE, Systems, Security
+  career_url: https://www.cloudflare.com/careers/
+  ats: unknown
+  active: false
+- name: Confluent
+  category: Big Tech / Global Product
+  priority: A
+  target_roles: SWE, Distributed Systems
+  career_url: https://www.confluent.io/careers/
+  ats: unknown
+  active: false
+- name: Datadog
+  category: Big Tech / Global Product
+  priority: A
+  target_roles: SWE, Platform, Backend
+  career_url: https://careers.datadoghq.com/
+  ats: unknown
+  active: false
+- name: Elastic
+  category: Big Tech / Global Product
+  priority: A
+  target_roles: SWE, Search, Cloud
+  career_url: https://www.elastic.co/about/careers
+  ats: unknown
+  active: false
+- name: Expedia Group
+  category: Big Tech / Global Product
+  priority: A
+  target_roles: SWE, Full Stack, Data
+  career_url: https://careers.expediagroup.com/
+  ats: unknown
+  active: false
+- name: HubSpot
+  category: Big Tech / Global Product
+  priority: A
+  target_roles: SWE, Full Stack, AI
+  career_url: https://www.hubspot.com/careers
+  ats: unknown
+  active: false
+- name: IBM
+  category: Big Tech / Global Product
+  priority: A
+  target_roles: SWE, AI, Cloud
+  career_url: https://www.ibm.com/careers/
+  ats: unknown
+  active: false
+- name: Intel
+  category: Big Tech / Global Product
+  priority: A
+  target_roles: Software, AI, Systems
+  career_url: https://jobs.intel.com/
+  ats: unknown
+  active: false
+- name: Netflix
+  category: Big Tech / Global Product
+  priority: A
+  target_roles: SWE, ML, Platform
+  career_url: https://jobs.netflix.com/
+  ats: unknown
+  active: false
+- name: Okta
+  category: Big Tech / Global Product
+  priority: A
+  target_roles: SWE, Security, Cloud
+  career_url: https://www.okta.com/company/careers/
+  ats: unknown
+  active: false
+- name: Oracle
+  category: Big Tech / Global Product
+  priority: A
+  target_roles: SWE, Cloud, AI, Intern
+  career_url: https://careers.oracle.com/
+  ats: unknown
+  active: false
+- name: PayPal
+  category: Big Tech / Global Product
+  priority: A
+  target_roles: SWE, Backend, Risk
+  career_url: https://careers.pypl.com/
+  ats: unknown
+  active: false
+- name: Qualcomm
+  category: Big Tech / Global Product
+  priority: A
+  target_roles: Embedded, AI, Software
+  career_url: https://www.qualcomm.com/company/careers
+  ats: unknown
+  active: false
+- name: Snowflake
+  category: Big Tech / Global Product
+  priority: A
+  target_roles: SWE, Data, Cloud
+  career_url: https://careers.snowflake.com/
+  ats: unknown
+  active: false
+- name: Twilio
+  category: Big Tech / Global Product
+  priority: A
+  target_roles: SWE, Backend, Cloud
+  career_url: https://www.twilio.com/en-us/company/jobs
+  ats: greenhouse
+  active: true
+  slug: twilio
+- name: Workday
+  category: Big Tech / Global Product
+  priority: A
+  target_roles: SWE, Cloud, Data
+  career_url: https://workday.wd5.myworkdayjobs.com/Workday
+  ats: workday
+  active: false
+- name: eBay
+  category: Big Tech / Global Product
+  priority: A
+  target_roles: SWE, Backend, Data
+  career_url: https://jobs.ebayinc.com/
+  ats: unknown
+  active: false
+- name: Flipkart
+  category: Indian Product / Unicorn
+  priority: S
+  target_roles: SDE, Full Stack, Backend
+  career_url: https://www.flipkartcareers.com/
+  ats: unknown
+  active: false
+- name: MakeMyTrip
+  category: Indian Product / Unicorn
+  priority: S
+  target_roles: SWE, Backend, Full Stack
+  career_url: https://careers.makemytrip.com/
+  ats: unknown
+  active: false
+- name: Meesho
+  category: Indian Product / Unicorn
+  priority: S
+  target_roles: SDE, Backend, Data
+  career_url: https://www.meesho.io/jobs
+  ats: unknown
+  active: false
+- name: Myntra
+  category: Indian Product / Unicorn
+  priority: S
+  target_roles: SDE, Frontend, ML
+  career_url: https://careers.myntra.com/
+  ats: unknown
+  active: false
+- name: Swiggy
+  category: Indian Product / Unicorn
+  priority: S
+  target_roles: SDE, Backend, Data, ML
+  career_url: https://careers.swiggy.com/
+  ats: unknown
+  active: false
+- name: Zepto
+  category: Indian Product / Unicorn
+  priority: S
+  target_roles: SWE, Backend, Full Stack
+  career_url: https://www.zeptonow.com/careers
+  ats: unknown
+  active: false
+- name: Acko
+  category: Indian Product / Unicorn
+  priority: A
+  target_roles: SWE, Backend, AI
+  career_url: https://www.acko.com/careers/
+  ats: unknown
+  active: false
+- name: Blinkit
+  category: Indian Product / Unicorn
+  priority: A
+  target_roles: SWE, Backend, Product
+  career_url: https://blinkit.com/careers
+  ats: unknown
+  active: false
+- name: Classplus
+  category: Indian Product / Unicorn
+  priority: A
+  target_roles: SWE, Full Stack, Backend
+  career_url: https://classplusapp.com/careers
+  ats: unknown
+  active: false
+- name: Cult.fit
+  category: Indian Product / Unicorn
+  priority: A
+  target_roles: SWE, Full Stack, Backend
+  career_url: https://www.cult.fit/careers
+  ats: unknown
+  active: false
+- name: Delhivery
+  category: Indian Product / Unicorn
+  priority: A
+  target_roles: SWE, Backend, Data
+  career_url: https://www.delhivery.com/careers/
+  ats: unknown
+  active: false
+- name: Dream11
+  category: Indian Product / Unicorn
+  priority: A
+  target_roles: SWE, Backend, Data
+  career_url: https://www.dream11.com/careers
+  ats: unknown
+  active: false
+- name: Fynd
+  category: Indian Product / Unicorn
+  priority: A
+  target_roles: SWE, Full Stack, Cloud
+  career_url: https://www.fynd.com/careers
+  ats: unknown
+  active: false
+- name: Lenskart
+  category: Indian Product / Unicorn
+  priority: A
+  target_roles: SWE, Full Stack, Data
+  career_url: https://hiring.lenskart.com/
+  ats: unknown
+  active: false
+- name: Meesho Data
+  category: Indian Product / Unicorn
+  priority: A
+  target_roles: Data, ML, Analytics
+  career_url: https://www.meesho.io/jobs?d=data-science
+  ats: unknown
+  active: false
+- name: Moglix
+  category: Indian Product / Unicorn
+  priority: A
+  target_roles: SWE, Full Stack, Backend
+  career_url: https://www.moglix.com/careers
+  ats: unknown
+  active: false
+- name: Navi
+  category: Indian Product / Unicorn
+  priority: A
+  target_roles: SWE, Backend, Data
+  career_url: https://www.navi.com/careers
+  ats: unknown
+  active: false
+- name: Nykaa
+  category: Indian Product / Unicorn
+  priority: A
+  target_roles: SWE, Full Stack, Data
+  career_url: https://www.nykaa.com/careers
+  ats: unknown
+  active: false
+- name: OYO
+  category: Indian Product / Unicorn
+  priority: A
+  target_roles: SWE, Backend, Full Stack
+  career_url: https://www.oyorooms.com/careers/
+  ats: unknown
+  active: false
+- name: OfBusiness
+  category: Indian Product / Unicorn
+  priority: A
+  target_roles: SWE, Backend, Data
+  career_url: https://www.ofbusiness.com/careers
+  ats: unknown
+  active: false
+- name: Ola
+  category: Indian Product / Unicorn
+  priority: A
+  target_roles: SWE, Data, Systems
+  career_url: https://www.olaelectric.com/careers
+  ats: unknown
+  active: false
+- name: PharmEasy
+  category: Indian Product / Unicorn
+  priority: A
+  target_roles: SWE, Full Stack, Data
+  career_url: https://pharmeasy.in/careers
+  ats: unknown
+  active: false
+- name: Physics Wallah
+  category: Indian Product / Unicorn
+  priority: A
+  target_roles: SWE, Full Stack, AI
+  career_url: https://www.pw.live/careers
+  ats: unknown
+  active: false
+- name: Policybazaar
+  category: Indian Product / Unicorn
+  priority: A
+  target_roles: SWE, Backend, Data
+  career_url: https://www.policybazaar.com/careers/
+  ats: unknown
+  active: false
+- name: Porter
+  category: Indian Product / Unicorn
+  priority: A
+  target_roles: SWE, Backend, Data
+  career_url: https://porter.in/careers
+  ats: unknown
+  active: false
+- name: Rapido
+  category: Indian Product / Unicorn
+  priority: A
+  target_roles: SWE, Backend, Full Stack
+  career_url: https://rapido.bike/careers
+  ats: unknown
+  active: false
+- name: Scaler
+  category: Indian Product / Unicorn
+  priority: A
+  target_roles: SWE, Full Stack, Backend
+  career_url: https://www.scaler.com/careers/
+  ats: unknown
+  active: false
+- name: Shiprocket
+  category: Indian Product / Unicorn
+  priority: A
+  target_roles: SWE, Full Stack, Backend
+  career_url: https://www.shiprocket.in/careers/
+  ats: unknown
+  active: false
+- name: Tata 1mg
+  category: Indian Product / Unicorn
+  priority: A
+  target_roles: SWE, Backend, Data
+  career_url: https://www.1mg.com/jobs
+  ats: unknown
+  active: false
+- name: Tata Digital
+  category: Indian Product / Unicorn
+  priority: A
+  target_roles: SWE, Product, Cloud
+  career_url: https://www.tatadigital.com/careers
+  ats: unknown
+  active: false
+- name: Udaan
+  category: Indian Product / Unicorn
+  priority: A
+  target_roles: SWE, Backend, Data
+  career_url: https://udaan.com/careers
+  ats: unknown
+  active: false
+- name: Urban Company
+  category: Indian Product / Unicorn
+  priority: A
+  target_roles: SWE, Backend, Product
+  career_url: https://www.urbancompany.com/careers
+  ats: unknown
+  active: false
+- name: Zomato
+  category: Indian Product / Unicorn
+  priority: A
+  target_roles: SWE, Backend, Product
+  career_url: https://www.zomato.com/careers
+  ats: unknown
+  active: false
+- name: ixigo
+  category: Indian Product / Unicorn
+  priority: A
+  target_roles: SWE, Full Stack, Backend
+  career_url: https://www.ixigo.com/careers
+  ats: unknown
+  active: false
+- name: upGrad
+  category: Indian Product / Unicorn
+  priority: A
+  target_roles: SWE, Full Stack, AI
+  career_url: https://www.upgrad.com/careers/
+  ats: unknown
+  active: false
+- name: Infra.Market
+  category: Indian Product / Unicorn
+  priority: B
+  target_roles: SWE, Backend, Data
+  career_url: https://infra.market/careers
+  ats: unknown
+  active: false
+- name: LEAD
+  category: Indian Product / Unicorn
+  priority: B
+  target_roles: SWE, Full Stack, Data
+  career_url: https://leadschool.in/careers/
+  ats: unknown
+  active: false
+- name: Simplilearn
+  category: Indian Product / Unicorn
+  priority: B
+  target_roles: SWE, Full Stack, Data
+  career_url: https://www.simplilearn.com/careers
+  ats: unknown
+  active: false
+- name: CRED
+  category: Fintech / Payments
+  priority: S
+  target_roles: SWE, Backend, Full Stack
+  career_url: https://careers.cred.club/
+  ats: unknown
+  active: false
+- name: Groww
+  category: Fintech / Payments
+  priority: S
+  target_roles: SWE, Backend, Full Stack
+  career_url: https://groww.in/careers
+  ats: greenhouse
+  active: true
+  slug: groww
+- name: Juspay
+  category: Fintech / Payments
+  priority: S
+  target_roles: SWE, Backend, Payments
+  career_url: https://juspay.io/careers
+  ats: unknown
+  active: false
+- name: PhonePe
+  category: Fintech / Payments
+  priority: S
+  target_roles: SWE, Backend, AI
+  career_url: https://www.phonepe.com/careers/job-openings/
+  ats: greenhouse
+  active: true
+  slug: phonepe
+- name: Razorpay
+  category: Fintech / Payments
+  priority: S
+  target_roles: SWE, Backend, AI, Payments
+  career_url: https://razorpay.com/jobs/
+  ats: greenhouse
+  active: true
+  slug: razorpaysoftwareprivatelimited
+- name: Zerodha
+  category: Fintech / Payments
+  priority: S
+  target_roles: SWE, Backend, Systems
+  career_url: https://zerodha.com/careers/
+  ats: unknown
+  active: false
+- name: Angel One
+  category: Fintech / Payments
+  priority: A
+  target_roles: SWE, Backend, Data
+  career_url: https://www.angelone.in/careers
+  ats: unknown
+  active: false
+- name: BharatPe
+  category: Fintech / Payments
+  priority: A
+  target_roles: SWE, Backend, FinTech
+  career_url: https://www.bharatpe.com/careers
+  ats: unknown
+  active: false
+- name: Cashfree Payments
+  category: Fintech / Payments
+  priority: A
+  target_roles: SWE, Backend, Payments
+  career_url: https://www.cashfree.com/careers/
+  ats: unknown
+  active: false
+- name: Decentro
+  category: Fintech / Payments
+  priority: A
+  target_roles: SWE, Backend, APIs
+  career_url: https://decentro.tech/careers
+  ats: unknown
+  active: false
+- name: FamPay
+  category: Fintech / Payments
+  priority: A
+  target_roles: SWE, Full Stack, Backend
+  career_url: https://fampay.in/careers
+  ats: unknown
+  active: false
+- name: Fi
+  category: Fintech / Payments
+  priority: A
+  target_roles: SWE, Backend, Product
+  career_url: https://fi.money/careers
+  ats: unknown
+  active: false
+- name: Jupiter
+  category: Fintech / Payments
+  priority: A
+  target_roles: SWE, Backend, FinTech
+  career_url: https://jupiter.money/careers/
+  ats: unknown
+  active: false
+- name: M2P Fintech
+  category: Fintech / Payments
+  priority: A
+  target_roles: SWE, Backend, Payments
+  career_url: https://m2pfintech.com/careers/
+  ats: unknown
+  active: false
+- name: Moneyview
+  category: Fintech / Payments
+  priority: A
+  target_roles: SWE, Backend, Data
+  career_url: https://moneyview.in/careers
+  ats: unknown
+  active: false
+- name: Navi Technologies
+  category: Fintech / Payments
+  priority: A
+  target_roles: SWE, Backend, Data
+  career_url: https://www.navi.com/careers
+  ats: unknown
+  active: false
+- name: Open Financial Technologies
+  category: Fintech / Payments
+  priority: A
+  target_roles: SWE, Backend, Payments
+  career_url: https://open.money/careers
+  ats: unknown
+  active: false
+- name: PayU
+  category: Fintech / Payments
+  priority: A
+  target_roles: SWE, Backend, FinTech
+  career_url: https://corporate.payu.com/careers/
+  ats: unknown
+  active: false
+- name: Paytm
+  category: Fintech / Payments
+  priority: A
+  target_roles: SWE, Backend, Payments
+  career_url: https://paytm.com/careers
+  ats: unknown
+  active: false
+- name: Perfios
+  category: Fintech / Payments
+  priority: A
+  target_roles: SWE, Backend, Data
+  career_url: https://www.perfios.com/careers/
+  ats: unknown
+  active: false
+- name: Pine Labs
+  category: Fintech / Payments
+  priority: A
+  target_roles: SWE, Backend, Payments
+  career_url: https://www.pinelabs.com/careers
+  ats: unknown
+  active: false
+- name: Setu
+  category: Fintech / Payments
+  priority: A
+  target_roles: SWE, APIs, FinTech
+  career_url: https://setu.co/careers
+  ats: unknown
+  active: false
+- name: Signzy
+  category: Fintech / Payments
+  priority: A
+  target_roles: SWE, Backend, AI
+  career_url: https://www.signzy.com/careers
+  ats: unknown
+  active: false
+- name: Slice
+  category: Fintech / Payments
+  priority: A
+  target_roles: SWE, Backend, FinTech
+  career_url: https://sliceit.com/careers
+  ats: unknown
+  active: false
+- name: Upstox
+  category: Fintech / Payments
+  priority: A
+  target_roles: SWE, Backend, Data
+  career_url: https://upstox.com/careers/
+  ats: unknown
+  active: false
+- name: 5paisa
+  category: Fintech / Payments
+  priority: B
+  target_roles: SWE, Backend, FinTech
+  career_url: https://www.5paisa.com/careers
+  ats: unknown
+  active: false
+- name: Credit Saison India
+  category: Fintech / Payments
+  priority: B
+  target_roles: SWE, Data, FinTech
+  career_url: https://www.creditsaison.in/careers
+  ats: unknown
+  active: false
+- name: Digit Insurance
+  category: Fintech / Payments
+  priority: B
+  target_roles: SWE, Backend, Data
+  career_url: https://www.godigit.com/careers
+  ats: unknown
+  active: false
+- name: Jar
+  category: Fintech / Payments
+  priority: B
+  target_roles: SWE, Full Stack, Backend
+  career_url: https://www.myjar.app/careers
+  ats: unknown
+  active: false
+- name: KreditBee
+  category: Fintech / Payments
+  priority: B
+  target_roles: SWE, Backend, FinTech
+  career_url: https://www.kreditbee.in/careers
+  ats: unknown
+  active: false
+- name: MobiKwik
+  category: Fintech / Payments
+  priority: B
+  target_roles: SWE, Backend, FinTech
+  career_url: https://www.mobikwik.com/careers
+  ats: unknown
+  active: false
+- name: Niyo
+  category: Fintech / Payments
+  priority: B
+  target_roles: SWE, Backend, FinTech
+  career_url: https://www.goniyo.com/careers
+  ats: unknown
+  active: false
+- name: Rupeek
+  category: Fintech / Payments
+  priority: B
+  target_roles: SWE, Backend, Data
+  career_url: https://rupeek.com/careers/
+  ats: unknown
+  active: false
+- name: Appsmith
+  category: SaaS / Developer Tools
+  priority: S
+  target_roles: SWE, Full Stack, Open Source
+  career_url: https://www.appsmith.com/careers
+  ats: unknown
+  active: false
+- name: BrowserStack
+  category: SaaS / Developer Tools
+  priority: S
+  target_roles: SWE, Backend, Infra
+  career_url: https://www.browserstack.com/careers
+  ats: greenhouse
+  active: true
+  slug: browserstack
+- name: Freshworks
+  category: SaaS / Developer Tools
+  priority: S
+  target_roles: SWE, AI, Full Stack
+  career_url: https://www.freshworks.com/company/careers/
+  ats: smartrecruiters
+  active: true
+  slug: Freshworks
+- name: InMobi
+  category: SaaS / Developer Tools
+  priority: S
+  target_roles: SWE, Backend, ML
+  career_url: https://www.inmobi.com/company/careers/
+  ats: greenhouse
+  active: true
+  slug: inmobi
+- name: Nanonets
+  category: SaaS / Developer Tools
+  priority: S
+  target_roles: AI, SWE, Backend
+  career_url: https://job-boards.greenhouse.io/nanonets
+  ats: greenhouse
+  active: true
+  slug: nanonets
+- name: Observe.AI
+  category: SaaS / Developer Tools
+  priority: S
+  target_roles: AI, SWE, ML
+  career_url: https://www.observe.ai/careers
+  ats: unknown
+  active: false
+- name: Postman
+  category: SaaS / Developer Tools
+  priority: S
+  target_roles: SWE, Backend, Platform
+  career_url: https://www.postman.com/company/careers/
+  ats: greenhouse
+  active: true
+  slug: postman
+- name: Uniphore
+  category: SaaS / Developer Tools
+  priority: S
+  target_roles: AI, ML, SWE
+  career_url: https://www.uniphore.com/careers/
+  ats: unknown
+  active: false
+- name: Yellow.ai
+  category: SaaS / Developer Tools
+  priority: S
+  target_roles: AI, SWE, Backend
+  career_url: https://yellow.ai/career/
+  ats: unknown
+  active: false
+- name: Zoho
+  category: SaaS / Developer Tools
+  priority: S
+  target_roles: SWE, Full Stack, Cloud
+  career_url: https://www.zoho.com/careers/
+  ats: unknown
+  active: false
+- name: Amagi
+  category: SaaS / Developer Tools
+  priority: A
+  target_roles: SWE, Backend, Cloud
+  career_url: https://www.amagi.com/careers
+  ats: unknown
+  active: false
+- name: Atlan
+  category: SaaS / Developer Tools
+  priority: A
+  target_roles: SWE, Data, Platform
+  career_url: https://atlan.com/careers/
+  ats: ashby
+  active: true
+  slug: atlan
+- name: Atomicwork
+  category: SaaS / Developer Tools
+  priority: A
+  target_roles: SWE, AI, Backend
+  career_url: https://atomicwork.com/careers
+  ats: unknown
+  active: false
+- name: BrowserUse
+  category: SaaS / Developer Tools
+  priority: A
+  target_roles: AI, Python, SWE
+  career_url: https://www.browser-use.com/careers
+  ats: unknown
+  active: false
+- name: Chargebee
+  category: SaaS / Developer Tools
+  priority: A
+  target_roles: SWE, Backend, SaaS
+  career_url: https://www.chargebee.com/careers/
+  ats: unknown
+  active: false
+- name: CleverTap
+  category: SaaS / Developer Tools
+  priority: A
+  target_roles: SWE, Backend, Data
+  career_url: https://clevertap.com/careers/
+  ats: greenhouse
+  active: true
+  slug: clevertap
+- name: Darwinbox
+  category: SaaS / Developer Tools
+  priority: A
+  target_roles: SWE, Full Stack, Cloud
+  career_url: https://darwinbox.com/careers/
+  ats: unknown
+  active: false
+- name: Druva
+  category: SaaS / Developer Tools
+  priority: A
+  target_roles: SWE, Cloud, Backend
+  career_url: https://www.druva.com/about/careers
+  ats: unknown
+  active: false
+- name: Gupshup
+  category: SaaS / Developer Tools
+  priority: A
+  target_roles: SWE, Backend, AI
+  career_url: https://www.gupshup.io/careers
+  ats: unknown
+  active: false
+- name: Hasura
+  category: SaaS / Developer Tools
+  priority: A
+  target_roles: SWE, Backend, GraphQL
+  career_url: https://hasura.io/careers/
+  ats: greenhouse
+  active: true
+  slug: hasura
+- name: HighRadius
+  category: SaaS / Developer Tools
+  priority: A
+  target_roles: SWE, AI, Backend
+  career_url: https://www.highradius.com/careers/
+  ats: unknown
+  active: false
+- name: Icertis
+  category: SaaS / Developer Tools
+  priority: A
+  target_roles: SWE, Full Stack, AI
+  career_url: https://www.icertis.com/company/careers/
+  ats: unknown
+  active: false
+- name: Innovaccer
+  category: SaaS / Developer Tools
+  priority: A
+  target_roles: SWE, AI, Data
+  career_url: https://innovaccer.com/careers
+  ats: unknown
+  active: false
+- name: Mindtickle
+  category: SaaS / Developer Tools
+  priority: A
+  target_roles: SWE, Full Stack, AI
+  career_url: https://www.mindtickle.com/careers/
+  ats: unknown
+  active: false
+- name: MoEngage
+  category: SaaS / Developer Tools
+  priority: A
+  target_roles: SWE, Backend, Data
+  career_url: https://www.moengage.com/careers/
+  ats: unknown
+  active: false
+- name: SpotDraft
+  category: SaaS / Developer Tools
+  priority: A
+  target_roles: SWE, Full Stack, AI
+  career_url: https://www.spotdraft.com/careers
+  ats: unknown
+  active: false
+- name: Sprinklr
+  category: SaaS / Developer Tools
+  priority: A
+  target_roles: SWE, AI, Platform
+  career_url: https://www.sprinklr.com/careers/
+  ats: greenhouse
+  active: true
+  slug: sprinklr
+- name: Sprinto
+  category: SaaS / Developer Tools
+  priority: A
+  target_roles: SWE, Full Stack, Security
+  career_url: https://sprinto.com/careers/
+  ats: ashby
+  active: true
+  slug: sprinto
+- name: ThoughtSpot
+  category: SaaS / Developer Tools
+  priority: A
+  target_roles: SWE, Data, AI
+  career_url: https://www.thoughtspot.com/careers
+  ats: greenhouse
+  active: true
+  slug: thoughtspot
+- name: TrueFoundry
+  category: SaaS / Developer Tools
+  priority: A
+  target_roles: AI, ML Platform, SWE
+  career_url: https://www.truefoundry.com/careers
+  ats: unknown
+  active: false
+- name: Unbox Robotics
+  category: SaaS / Developer Tools
+  priority: A
+  target_roles: SWE, Robotics, AI
+  career_url: https://www.unboxrobotics.com/careers/
+  ats: unknown
+  active: false
+- name: Whatfix
+  category: SaaS / Developer Tools
+  priority: A
+  target_roles: SWE, Full Stack, AI
+  career_url: https://whatfix.com/company/careers/
+  ats: unknown
+  active: false
+- name: Wingify
+  category: SaaS / Developer Tools
+  priority: A
+  target_roles: SWE, Full Stack, SaaS
+  career_url: https://wingify.com/careers
+  ats: unknown
+  active: false
+- name: Zluri
+  category: SaaS / Developer Tools
+  priority: A
+  target_roles: SWE, Backend, SaaS
+  career_url: https://www.zluri.com/careers
+  ats: unknown
+  active: false
+- name: Kapture CX
+  category: SaaS / Developer Tools
+  priority: B
+  target_roles: SWE, Backend, AI
+  career_url: https://www.kapture.cx/careers
+  ats: unknown
+  active: false
+- name: Kissflow
+  category: SaaS / Developer Tools
+  priority: B
+  target_roles: SWE, Full Stack, SaaS
+  career_url: https://kissflow.com/careers/
+  ats: unknown
+  active: false
+- name: Rocketlane
+  category: SaaS / Developer Tools
+  priority: B
+  target_roles: SWE, Full Stack, SaaS
+  career_url: https://rocketlane.com/careers
+  ats: unknown
+  active: false
+- name: Smytten
+  category: SaaS / Developer Tools
+  priority: B
+  target_roles: SWE, Full Stack, Data
+  career_url: https://smytten.com/careers
+  ats: unknown
+  active: false
+- name: Wingman
+  category: SaaS / Developer Tools
+  priority: B
+  target_roles: AI, Full Stack, Product
+  career_url: https://wingman.ai/careers
+  ats: unknown
+  active: false
+- name: Anthropic
+  category: AI / ML / GenAI
+  priority: S
+  target_roles: AI, SWE, Research
+  career_url: https://www.anthropic.com/careers
+  ats: greenhouse
+  active: true
+  slug: anthropic
+- name: Anysphere
+  category: AI / ML / GenAI
+  priority: S
+  target_roles: AI, SWE, Developer Tools
+  career_url: https://www.cursor.com/careers
+  ats: unknown
+  active: false
+- name: Cognition
+  category: AI / ML / GenAI
+  priority: S
+  target_roles: AI Agents, SWE
+  career_url: https://www.cognition.ai/careers
+  ats: unknown
+  active: false
+- name: Cohere
+  category: AI / ML / GenAI
+  priority: S
+  target_roles: LLM, AI, SWE
+  career_url: https://cohere.com/careers
+  ats: ashby
+  active: true
+  slug: cohere
+- name: Databricks
+  category: AI / ML / GenAI
+  priority: S
+  target_roles: AI, Data, SWE
+  career_url: https://www.databricks.com/company/careers
+  ats: greenhouse
+  active: true
+  slug: databricks
+- name: ElevenLabs
+  category: AI / ML / GenAI
+  priority: S
+  target_roles: AI, Speech, SWE
+  career_url: https://elevenlabs.io/careers
+  ats: unknown
+  active: false
+- name: Ema
+  category: AI / ML / GenAI
+  priority: S
+  target_roles: AI Agents, SWE
+  career_url: https://www.ema.co/careers
+  ats: unknown
+  active: false
+- name: Google DeepMind
+  category: AI / ML / GenAI
+  priority: S
+  target_roles: AI, ML, Research
+  career_url: https://deepmind.google/careers/
+  ats: unknown
+  active: false
+- name: Groq
+  category: AI / ML / GenAI
+  priority: S
+  target_roles: AI Infra, SWE
+  career_url: https://groq.com/careers/
+  ats: unknown
+  active: false
+- name: Hugging Face
+  category: AI / ML / GenAI
+  priority: S
+  target_roles: ML, AI, SWE
+  career_url: https://apply.workable.com/huggingface/
+  ats: workable
+  active: true
+  slug: huggingface
+- name: Krutrim
+  category: AI / ML / GenAI
+  priority: S
+  target_roles: AI, ML, SWE
+  career_url: https://www.olakrutrim.com/careers
+  ats: unknown
+  active: false
+- name: LangChain
+  category: AI / ML / GenAI
+  priority: S
+  target_roles: LLM, AI, SWE
+  career_url: https://www.langchain.com/careers
+  ats: unknown
+  active: false
+- name: Microsoft AI
+  category: AI / ML / GenAI
+  priority: S
+  target_roles: AI, SWE, Research
+  career_url: https://careers.microsoft.com/
+  ats: unknown
+  active: false
+- name: Mistral AI
+  category: AI / ML / GenAI
+  priority: S
+  target_roles: AI, ML, SWE
+  career_url: https://mistral.ai/careers
+  ats: unknown
+  active: false
+- name: NVIDIA AI
+  category: AI / ML / GenAI
+  priority: S
+  target_roles: AI, ML, Systems
+  career_url: https://www.nvidia.com/en-us/about-nvidia/careers/
+  ats: unknown
+  active: false
+- name: Netradyne
+  category: AI / ML / GenAI
+  priority: S
+  target_roles: CV, ML, SWE
+  career_url: https://www.netradyne.com/careers
+  ats: unknown
+  active: false
+- name: OpenAI
+  category: AI / ML / GenAI
+  priority: S
+  target_roles: AI, SWE, Research
+  career_url: https://openai.com/careers/
+  ats: unknown
+  active: false
+- name: Perplexity
+  category: AI / ML / GenAI
+  priority: S
+  target_roles: AI, SWE, Search
+  career_url: https://www.perplexity.ai/hub/careers
+  ats: ashby
+  active: true
+  slug: perplexity
+- name: Qure.ai
+  category: AI / ML / GenAI
+  priority: S
+  target_roles: ML, Computer Vision, SWE
+  career_url: https://qure.ai/careers/
+  ats: unknown
+  active: false
+- name: Replit
+  category: AI / ML / GenAI
+  priority: S
+  target_roles: AI, Full Stack, SWE
+  career_url: https://replit.com/careers
+  ats: ashby
+  active: true
+  slug: replit
+- name: Sarvam AI
+  category: AI / ML / GenAI
+  priority: S
+  target_roles: AI, ML, Backend, Frontend
+  career_url: https://www.sarvam.ai/careers
+  ats: ashby
+  active: true
+  slug: sarvam
+- name: Scale AI
+  category: AI / ML / GenAI
+  priority: S
+  target_roles: AI, ML, SWE
+  career_url: https://scale.com/careers
+  ats: greenhouse
+  active: true
+  slug: scaleai
+- name: Sierra
+  category: AI / ML / GenAI
+  priority: S
+  target_roles: AI Agents, SWE
+  career_url: https://sierra.ai/careers
+  ats: unknown
+  active: false
+- name: Together AI
+  category: AI / ML / GenAI
+  priority: S
+  target_roles: AI, LLM, SWE
+  career_url: https://www.together.ai/careers
+  ats: greenhouse
+  active: true
+  slug: togetherai
+- name: Weights & Biases
+  category: AI / ML / GenAI
+  priority: S
+  target_roles: ML Platform, SWE
+  career_url: https://wandb.ai/careers
+  ats: unknown
+  active: false
+- name: AI21 Labs
+  category: AI / ML / GenAI
+  priority: A
+  target_roles: LLM, AI, SWE
+  career_url: https://www.ai21.com/careers/
+  ats: unknown
+  active: false
+- name: Anyscale
+  category: AI / ML / GenAI
+  priority: A
+  target_roles: AI Infra, Python, SWE
+  career_url: https://www.anyscale.com/careers
+  ats: unknown
+  active: false
+- name: Arya.ai
+  category: AI / ML / GenAI
+  priority: A
+  target_roles: AI, ML, SWE
+  career_url: https://arya.ai/careers
+  ats: unknown
+  active: false
+- name: Gnani.ai
+  category: AI / ML / GenAI
+  priority: A
+  target_roles: AI, Speech, ML
+  career_url: https://gnani.ai/careers/
+  ats: unknown
+  active: false
+- name: Haptik
+  category: AI / ML / GenAI
+  priority: A
+  target_roles: AI, NLP, SWE
+  career_url: https://www.haptik.ai/careers
+  ats: unknown
+  active: false
+- name: Harvey
+  category: AI / ML / GenAI
+  priority: A
+  target_roles: AI, SWE, LLM
+  career_url: https://www.harvey.ai/careers
+  ats: ashby
+  active: true
+  slug: harvey
+- name: Mad Street Den
+  category: AI / ML / GenAI
+  priority: A
+  target_roles: AI, CV, SWE
+  career_url: https://www.madstreetden.com/careers
+  ats: unknown
+  active: false
+- name: Niramai
+  category: AI / ML / GenAI
+  priority: A
+  target_roles: ML, CV, AI
+  career_url: https://www.niramai.com/careers
+  ats: unknown
+  active: false
+- name: Replicate
+  category: AI / ML / GenAI
+  priority: A
+  target_roles: AI, ML, SWE
+  career_url: https://replicate.com/careers
+  ats: unknown
+  active: false
+- name: Runway
+  category: AI / ML / GenAI
+  priority: A
+  target_roles: Generative AI, ML
+  career_url: https://runwayml.com/careers
+  ats: unknown
+  active: false
+- name: SigTuple
+  category: AI / ML / GenAI
+  priority: A
+  target_roles: ML, CV, AI
+  career_url: https://sigtuple.com/careers/
+  ats: unknown
+  active: false
+- name: Stability AI
+  category: AI / ML / GenAI
+  priority: A
+  target_roles: Generative AI, ML
+  career_url: https://stability.ai/careers
+  ats: unknown
+  active: false
+- name: Writer
+  category: AI / ML / GenAI
+  priority: A
+  target_roles: GenAI, SWE, Platform
+  career_url: https://writer.com/careers/
+  ats: unknown
+  active: false
+- name: CoRover
+  category: AI / ML / GenAI
+  priority: B
+  target_roles: AI, NLP, SWE
+  career_url: https://corover.ai/careers/
+  ats: unknown
+  active: false
+- name: Wysa
+  category: AI / ML / GenAI
+  priority: B
+  target_roles: AI, NLP, Product
+  career_url: https://www.wysa.com/careers
+  ats: unknown
+  active: false
+- name: Lanmea
+  category: India Startups / Growth Tech
+  priority: S
+  target_roles: AI + SWE, Full Stack
+  career_url: https://www.lanmea.com/careers
+  ats: unknown
+  active: false
+- name: Qure.ai India
+  category: India Startups / Growth Tech
+  priority: S
+  target_roles: AI, CV, ML
+  career_url: https://qure.ai/careers/
+  ats: unknown
+  active: false
+- name: RazorpayX
+  category: India Startups / Growth Tech
+  priority: S
+  target_roles: Payments, Backend, AI
+  career_url: https://razorpay.com/jobs/
+  ats: unknown
+  active: false
+- name: Zeta
+  category: India Startups / Growth Tech
+  priority: S
+  target_roles: FinTech, SWE, Backend
+  career_url: https://www.zeta.tech/careers
+  ats: unknown
+  active: false
+- name: Amagi India
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: Cloud, Backend, SWE
+  career_url: https://www.amagi.com/careers
+  ats: unknown
+  active: false
+- name: Anavai Technologies
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: Full Stack, AI
+  career_url: https://anavaihq.com/jobs
+  ats: unknown
+  active: false
+- name: Ather Energy
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: Software, IoT, Backend
+  career_url: https://www.atherenergy.com/careers
+  ats: unknown
+  active: false
+- name: Ather Energy Software
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: Software, IoT, Backend
+  career_url: https://www.atherenergy.com/careers
+  ats: unknown
+  active: false
+- name: CRED Garage
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: SWE, Product, Backend
+  career_url: https://careers.cred.club/
+  ats: unknown
+  active: false
+- name: Cashfree
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: Payments, Backend
+  career_url: https://www.cashfree.com/careers/
+  ats: unknown
+  active: false
+- name: CleverTap India
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: SWE, Data, Backend
+  career_url: https://clevertap.com/careers/
+  ats: unknown
+  active: false
+- name: CloudSEK
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: Cybersecurity, AI, SWE
+  career_url: https://www.cloudsek.com/careers
+  ats: unknown
+  active: false
+- name: Cogoport
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: Backend, Full Stack, Data
+  career_url: https://www.cogoport.com/careers
+  ats: unknown
+  active: false
+- name: Dream Sports
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: SWE, Backend, Data
+  career_url: https://www.dreamsports.group/careers
+  ats: unknown
+  active: false
+- name: Exotel
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: Backend, APIs, AI
+  career_url: https://exotel.com/careers/
+  ats: unknown
+  active: false
+- name: Games24x7
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: SWE, Backend, Data
+  career_url: https://www.games24x7.com/careers
+  ats: unknown
+  active: false
+- name: Glance
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: SWE, AI, Product
+  career_url: https://glance.com/careers
+  ats: unknown
+  active: false
+- name: Khatabook
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: SWE, FinTech, Backend
+  career_url: https://khatabook.com/careers
+  ats: unknown
+  active: false
+- name: Leadsquared
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: SaaS, Full Stack, Backend
+  career_url: https://www.leadsquared.com/careers/
+  ats: unknown
+  active: false
+- name: Lucidity
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: Cloud, Backend, SWE
+  career_url: https://www.luciditysoftware.com/careers
+  ats: unknown
+  active: false
+- name: Mindtickle India
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: SaaS, SWE, AI
+  career_url: https://www.mindtickle.com/careers/
+  ats: unknown
+  active: false
+- name: Moj
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: SWE, Backend, ML
+  career_url: https://sharechat.com/careers
+  ats: unknown
+  active: false
+- name: MyGyan
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: AI, SWE, EdTech
+  career_url: https://mygyan.ai/careers
+  ats: unknown
+  active: false
+- name: Niramai AI
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: AI, CV, ML
+  career_url: https://www.niramai.com/careers
+  ats: unknown
+  active: false
+- name: Observe.AI India
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: AI, ML, SWE
+  career_url: https://www.observe.ai/careers
+  ats: unknown
+  active: false
+- name: Onelogica
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: Full Stack, AI
+  career_url: https://www.onelogica.com/careers
+  ats: unknown
+  active: false
+- name: Outmarket AI
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: AI, LLM, SWE
+  career_url: https://outmarket.ai/careers
+  ats: ashby
+  active: true
+  slug: outmarket
+- name: Pixis
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: AI, ML, SWE
+  career_url: https://pixis.ai/careers/
+  ats: unknown
+  active: false
+- name: Porter Tech
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: Backend, Full Stack
+  career_url: https://porter.in/careers
+  ats: unknown
+  active: false
+- name: Rapido Tech
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: Backend, Full Stack
+  career_url: https://rapido.bike/careers
+  ats: unknown
+  active: false
+- name: Sapiensu
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: AI, Full Stack, Backend
+  career_url: https://www.sapiensu.com/careers
+  ats: unknown
+  active: false
+- name: SarvM AI
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: AI, MEAN, Intern
+  career_url: https://sarvm.freshteam.com/jobs
+  ats: unknown
+  active: false
+- name: ShareChat
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: SWE, Backend, ML
+  career_url: https://sharechat.com/careers
+  ats: unknown
+  active: false
+- name: Sigtuple AI
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: AI, CV, ML
+  career_url: https://sigtuple.com/careers/
+  ats: unknown
+  active: false
+- name: Skyclad Ventures
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: AI, ML, Full Stack
+  career_url: https://skycladventures.com/careers
+  ats: unknown
+  active: false
+- name: Smallcase
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: FinTech, SWE
+  career_url: https://www.smallcase.com/careers
+  ats: unknown
+  active: false
+- name: SuperAGI
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: AI Agents, SWE
+  career_url: https://superagi.com/careers
+  ats: unknown
+  active: false
+- name: UnifyApps
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: Full Stack, AI
+  career_url: https://unifyapps.com/careers
+  ats: unknown
+  active: false
+- name: Vahan
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: AI, Backend, Product
+  career_url: https://vahan.ai/careers
+  ats: unknown
+  active: false
+- name: Yellow.ai India
+  category: India Startups / Growth Tech
+  priority: A
+  target_roles: AI, SWE, Backend
+  career_url: https://yellow.ai/career/
+  ats: unknown
+  active: false
+- name: Appknox
+  category: India Startups / Growth Tech
+  priority: B
+  target_roles: Security, Backend, SWE
+  career_url: https://appknox.com/careers
+  ats: unknown
+  active: false
+- name: Athera
+  category: India Startups / Growth Tech
+  priority: B
+  target_roles: AI, ML, SWE
+  career_url: https://www.athera.ai/careers
+  ats: unknown
+  active: false
+- name: Athera AI
+  category: India Startups / Growth Tech
+  priority: B
+  target_roles: AI, SWE, ML
+  career_url: https://athera.ai/careers
+  ats: unknown
+  active: false
+- name: BharatX
+  category: India Startups / Growth Tech
+  priority: B
+  target_roles: FinTech, SWE, Backend
+  career_url: https://www.bharatx.tech/careers
+  ats: unknown
+  active: false
+- name: Convosight
+  category: India Startups / Growth Tech
+  priority: B
+  target_roles: Full Stack, Backend
+  career_url: https://convosight.com/careers
+  ats: unknown
+  active: false
+- name: Curefoods
+  category: India Startups / Growth Tech
+  priority: B
+  target_roles: SWE, Data, Product
+  career_url: https://curefoods.in/careers
+  ats: unknown
+  active: false
+- name: Detectify
+  category: India Startups / Growth Tech
+  priority: B
+  target_roles: Security, SWE
+  career_url: https://detectify.com/careers
+  ats: unknown
+  active: false
+- name: Ditto Insurance
+  category: India Startups / Growth Tech
+  priority: B
+  target_roles: FinTech, Product, SWE
+  career_url: https://joinditto.in/careers/
+  ats: unknown
+  active: false
+- name: Flock
+  category: India Startups / Growth Tech
+  priority: B
+  target_roles: SWE, Full Stack, SaaS
+  career_url: https://www.flock.com/careers
+  ats: unknown
+  active: false
+- name: Flock Safety India
+  category: India Startups / Growth Tech
+  priority: B
+  target_roles: Computer Vision, SWE
+  career_url: https://www.flocksafety.com/careers
+  ats: unknown
+  active: false
+- name: Koo
+  category: India Startups / Growth Tech
+  priority: B
+  target_roles: SWE, Backend, Product
+  career_url: https://www.kooapp.com/careers
+  ats: unknown
+  active: false
+- name: Locobuzz
+  category: India Startups / Growth Tech
+  priority: B
+  target_roles: AI, Backend, SWE
+  career_url: https://www.locobuzz.com/careers
+  ats: unknown
+  active: false
+- name: Mswipe
+  category: India Startups / Growth Tech
+  priority: B
+  target_roles: FinTech, SWE
+  career_url: https://www.mswipe.com/careers
+  ats: unknown
+  active: false
+- name: SUGAR Cosmetics
+  category: India Startups / Growth Tech
+  priority: B
+  target_roles: SWE, Data, Product
+  career_url: https://in.linkedin.com/company/sugarcosmetics/jobs
+  ats: unknown
+  active: false
+- name: Ultraviolette Automotive
+  category: India Startups / Growth Tech
+  priority: B
+  target_roles: Software, Embedded, AI
+  career_url: https://www.ultraviolette.com/careers
+  ats: unknown
+  active: false
+- name: Vymo
+  category: India Startups / Growth Tech
+  priority: B
+  target_roles: SaaS, Full Stack, AI
+  career_url: https://www.vymo.com/careers
+  ats: unknown
+  active: false
+- name: Wint Wealth
+  category: India Startups / Growth Tech
+  priority: B
+  target_roles: FinTech, SWE
+  career_url: https://www.wintwealth.com/careers
+  ats: unknown
+  active: false
+- name: BlackRock
+  category: Banks / Financial Services Tech
+  priority: S
+  target_roles: SWE, Data, Platform
+  career_url: https://www.blackrock.com/corporate/careers
+  ats: unknown
+  active: false
+- name: Goldman Sachs
+  category: Banks / Financial Services Tech
+  priority: S
+  target_roles: SWE, AI, Platform
+  career_url: https://www.goldmansachs.com/careers
+  ats: unknown
+  active: false
+- name: JPMorgan Chase
+  category: Banks / Financial Services Tech
+  priority: S
+  target_roles: SWE, Cloud, AI, Intern
+  career_url: https://www.jpmorganchase.com/careers
+  ats: unknown
+  active: false
+- name: Mastercard
+  category: Banks / Financial Services Tech
+  priority: S
+  target_roles: SWE, Payments, AI
+  career_url: https://careers.mastercard.com/
+  ats: unknown
+  active: false
+- name: Morgan Stanley
+  category: Banks / Financial Services Tech
+  priority: S
+  target_roles: SWE, Data, Cloud
+  career_url: https://www.morganstanley.com/people-opportunities
+  ats: unknown
+  active: false
+- name: American Express
+  category: Banks / Financial Services Tech
+  priority: A
+  target_roles: SWE, Data, AI
+  career_url: https://www.americanexpress.com/en-us/careers/
+  ats: unknown
+  active: false
+- name: Axis Bank
+  category: Banks / Financial Services Tech
+  priority: A
+  target_roles: Tech, Data, Digital
+  career_url: https://www.axisbank.com/careers
+  ats: unknown
+  active: false
+- name: Bank of America
+  category: Banks / Financial Services Tech
+  priority: A
+  target_roles: SWE, Cloud, AI
+  career_url: https://careers.bankofamerica.com/
+  ats: unknown
+  active: false
+- name: Barclays
+  category: Banks / Financial Services Tech
+  priority: A
+  target_roles: SWE, Cloud, AI
+  career_url: https://home.barclays/careers/
+  ats: unknown
+  active: false
+- name: Capital One
+  category: Banks / Financial Services Tech
+  priority: A
+  target_roles: SWE, Cloud, Data
+  career_url: https://www.capitalonecareers.com/
+  ats: unknown
+  active: false
+- name: Citi
+  category: Banks / Financial Services Tech
+  priority: A
+  target_roles: SWE, Backend, Data
+  career_url: https://jobs.citi.com/
+  ats: unknown
+  active: false
+- name: Deutsche Bank
+  category: Banks / Financial Services Tech
+  priority: A
+  target_roles: SWE, Backend, Data
+  career_url: https://careers.db.com/
+  ats: unknown
+  active: false
+- name: Fidelity Investments
+  category: Banks / Financial Services Tech
+  priority: A
+  target_roles: SWE, Cloud, Data
+  career_url: https://jobs.fidelity.com/
+  ats: unknown
+  active: false
+- name: HDFC Bank
+  category: Banks / Financial Services Tech
+  priority: A
+  target_roles: Tech, Data, Digital
+  career_url: https://www.hdfcbank.com/personal/about-us/careers
+  ats: unknown
+  active: false
+- name: HSBC
+  category: Banks / Financial Services Tech
+  priority: A
+  target_roles: SWE, Cloud, Data
+  career_url: https://www.hsbc.com/careers
+  ats: unknown
+  active: false
+- name: ICICI Bank
+  category: Banks / Financial Services Tech
+  priority: A
+  target_roles: Tech, Data, Digital
+  career_url: https://www.icicibank.com/about-us/careers
+  ats: unknown
+  active: false
+- name: NatWest Group
+  category: Banks / Financial Services Tech
+  priority: A
+  target_roles: SWE, Cloud, Data
+  career_url: https://jobs.natwestgroup.com/
+  ats: unknown
+  active: false
+- name: Standard Chartered
+  category: Banks / Financial Services Tech
+  priority: A
+  target_roles: SWE, Cloud, Data
+  career_url: https://www.sc.com/en/careers/
+  ats: unknown
+  active: false
+- name: UBS
+  category: Banks / Financial Services Tech
+  priority: A
+  target_roles: SWE, Cloud, Data
+  career_url: https://www.ubs.com/global/en/careers.html
+  ats: unknown
+  active: false
+- name: Visa
+  category: Banks / Financial Services Tech
+  priority: A
+  target_roles: SWE, Payments, AI
+  career_url: https://corporate.visa.com/en/careers.html
+  ats: unknown
+  active: false
+- name: Wells Fargo
+  category: Banks / Financial Services Tech
+  priority: A
+  target_roles: SWE, Cloud, Data
+  career_url: https://www.wellsfargo.com/about/careers/
+  ats: unknown
+  active: false
+- name: AU Small Finance Bank
+  category: Banks / Financial Services Tech
+  priority: B
+  target_roles: Tech, Data, Digital
+  career_url: https://www.au.bank/careers
+  ats: unknown
+  active: false
+- name: BNP Paribas
+  category: Banks / Financial Services Tech
+  priority: B
+  target_roles: SWE, Data, Cloud
+  career_url: https://group.bnpparibas/en/careers
+  ats: unknown
+  active: false
+- name: Credit Suisse / UBS
+  category: Banks / Financial Services Tech
+  priority: B
+  target_roles: SWE, Cloud, Data
+  career_url: https://www.ubs.com/global/en/careers.html
+  ats: unknown
+  active: false
+- name: IDFC FIRST Bank
+  category: Banks / Financial Services Tech
+  priority: B
+  target_roles: Tech, Data, Digital
+  career_url: https://www.idfcfirstbank.com/about-us/careers
+  ats: unknown
+  active: false
+- name: IndusInd Bank
+  category: Banks / Financial Services Tech
+  priority: B
+  target_roles: Tech, Data, Digital
+  career_url: https://www.indusind.com/in/en/about-us/careers.html
+  ats: unknown
+  active: false
+- name: Kotak Mahindra Bank
+  category: Banks / Financial Services Tech
+  priority: B
+  target_roles: Tech, Data, Digital
+  career_url: https://www.kotak.com/en/careers.html
+  ats: unknown
+  active: false
+- name: Northern Trust
+  category: Banks / Financial Services Tech
+  priority: B
+  target_roles: SWE, Data, Cloud
+  career_url: https://www.northerntrust.com/careers
+  ats: unknown
+  active: false
+- name: Societe Generale
+  category: Banks / Financial Services Tech
+  priority: B
+  target_roles: SWE, Cloud, Data
+  career_url: https://careers.societegenerale.com/
+  ats: unknown
+  active: false
+- name: State Street
+  category: Banks / Financial Services Tech
+  priority: B
+  target_roles: SWE, Cloud, Data
+  career_url: https://careers.statestreet.com/
+  ats: unknown
+  active: false
+- name: Accenture
+  category: Consulting / IT
+  priority: S
+  target_roles: SWE, Cloud, AI
+  career_url: https://www.accenture.com/in-en/careers
+  ats: unknown
+  active: false
+- name: Persistent Systems
+  category: Consulting / IT
+  priority: S
+  target_roles: SWE, Cloud, AI
+  career_url: https://www.persistent.com/careers/
+  ats: unknown
+  active: false
+- name: BCG
+  category: Consulting / IT
+  priority: A
+  target_roles: Digital, AI, SWE
+  career_url: https://careers.bcg.com/
+  ats: unknown
+  active: false
+- name: Coforge
+  category: Consulting / IT
+  priority: A
+  target_roles: SWE, Cloud, Data
+  career_url: https://www.coforge.com/careers
+  ats: unknown
+  active: false
+- name: Deloitte
+  category: Consulting / IT
+  priority: A
+  target_roles: SWE, AI, Cloud
+  career_url: https://jobs.deloitte.com/
+  ats: unknown
+  active: false
+- name: EPAM
+  category: Consulting / IT
+  priority: A
+  target_roles: SWE, Cloud, AI
+  career_url: https://www.epam.com/careers
+  ats: unknown
+  active: false
+- name: EY
+  category: Consulting / IT
+  priority: A
+  target_roles: Tech, AI, Data
+  career_url: https://www.ey.com/en_in/careers
+  ats: unknown
+  active: false
+- name: Globant
+  category: Consulting / IT
+  priority: A
+  target_roles: SWE, Full Stack, AI
+  career_url: https://career.globant.com/
+  ats: unknown
+  active: false
+- name: HCLTech
+  category: Consulting / IT
+  priority: A
+  target_roles: SWE, Cloud, AI
+  career_url: https://www.hcltech.com/careers
+  ats: unknown
+  active: false
+- name: Hexaware
+  category: Consulting / IT
+  priority: A
+  target_roles: SWE, Cloud, AI
+  career_url: https://hexaware.com/careers/
+  ats: unknown
+  active: false
+- name: Infosys
+  category: Consulting / IT
+  priority: A
+  target_roles: SWE, Cloud, AI
+  career_url: https://www.infosys.com/careers/
+  ats: unknown
+  active: false
+- name: LTIMindtree
+  category: Consulting / IT
+  priority: A
+  target_roles: SWE, Cloud, AI
+  career_url: https://www.ltimindtree.com/careers/
+  ats: unknown
+  active: false
+- name: McKinsey
+  category: Consulting / IT
+  priority: A
+  target_roles: Digital, Data, SWE
+  career_url: https://www.mckinsey.com/careers
+  ats: unknown
+  active: false
+- name: Mphasis
+  category: Consulting / IT
+  priority: A
+  target_roles: SWE, Cloud, Data
+  career_url: https://careers.mphasis.com/
+  ats: unknown
+  active: false
+- name: TCS
+  category: Consulting / IT
+  priority: A
+  target_roles: SWE, Cloud, AI
+  career_url: https://www.tcs.com/careers
+  ats: unknown
+  active: false
+- name: Thoughtworks
+  category: Consulting / IT
+  priority: A
+  target_roles: SWE, Full Stack, Cloud
+  career_url: https://www.thoughtworks.com/careers
+  ats: unknown
+  active: false
+- name: UST
+  category: Consulting / IT
+  priority: A
+  target_roles: SWE, Cloud, AI
+  career_url: https://www.ust.com/en/careers
+  ats: unknown
+  active: false
+- name: Wipro
+  category: Consulting / IT
+  priority: A
+  target_roles: SWE, Cloud, AI
+  career_url: https://careers.wipro.com/
+  ats: unknown
+  active: false
+- name: Bain
+  category: Consulting / IT
+  priority: B
+  target_roles: Digital, Data, Tech
+  career_url: https://www.bain.com/careers/
+  ats: unknown
+  active: false
+- name: Birlasoft
+  category: Consulting / IT
+  priority: B
+  target_roles: SWE, Cloud, Data
+  career_url: https://www.birlasoft.com/careers
+  ats: unknown
+  active: false
+- name: KPMG
+  category: Consulting / IT
+  priority: B
+  target_roles: Tech, Data, AI
+  career_url: https://kpmg.com/in/en/home/careers.html
+  ats: unknown
+  active: false
+- name: PwC
+  category: Consulting / IT
+  priority: B
+  target_roles: Tech, Cloud, Data
+  career_url: https://www.pwc.in/careers.html
+  ats: unknown
+  active: false
+- name: Tech Mahindra
+  category: Consulting / IT
+  priority: B
+  target_roles: SWE, Cloud, Data
+  career_url: https://careers.techmahindra.com/
+  ats: unknown
+  active: false
+- name: Virtusa
+  category: Consulting / IT
+  priority: B
+  target_roles: SWE, Cloud, Data
+  career_url: https://www.virtusa.com/careers
+  ats: unknown
+  active: false
+- name: Zensar
+  category: Consulting / IT
+  priority: B
+  target_roles: SWE, Cloud, Data
+  career_url: https://www.zensar.com/careers
+  ats: unknown
+  active: false
+- name: ASML
+  category: Semiconductor / Hardware / Systems
+  priority: A
+  target_roles: Software, Systems
+  career_url: https://www.asml.com/en/careers
+  ats: unknown
+  active: false
+- name: Arm
+  category: Semiconductor / Hardware / Systems
+  priority: A
+  target_roles: Systems, C++, AI, Software
+  career_url: https://careers.arm.com/
+  ats: unknown
+  active: false
+- name: Bosch
+  category: Semiconductor / Hardware / Systems
+  priority: A
+  target_roles: Software, Embedded, AI
+  career_url: https://www.bosch.in/careers/
+  ats: unknown
+  active: false
+- name: Cadence
+  category: Semiconductor / Hardware / Systems
+  priority: A
+  target_roles: EDA, Software, AI
+  career_url: https://www.cadence.com/en_US/home/company/careers.html
+  ats: unknown
+  active: false
+- name: Continental
+  category: Semiconductor / Hardware / Systems
+  priority: A
+  target_roles: Software, Embedded, AI
+  career_url: https://jobs.continental.com/
+  ats: unknown
+  active: false
+- name: Honeywell
+  category: Semiconductor / Hardware / Systems
+  priority: A
+  target_roles: Software, Cloud, Systems
+  career_url: https://careers.honeywell.com/
+  ats: unknown
+  active: false
+- name: Infineon
+  category: Semiconductor / Hardware / Systems
+  priority: A
+  target_roles: Embedded, Software, AI
+  career_url: https://www.infineon.com/cms/en/careers/
+  ats: unknown
+  active: false
+- name: Marvell
+  category: Semiconductor / Hardware / Systems
+  priority: A
+  target_roles: Systems, Software, AI
+  career_url: https://www.marvell.com/company/careers.html
+  ats: unknown
+  active: false
+- name: MediaTek
+  category: Semiconductor / Hardware / Systems
+  priority: A
+  target_roles: Embedded, AI, Software
+  career_url: https://careers.mediatek.com/
+  ats: unknown
+  active: false
+- name: Micron
+  category: Semiconductor / Hardware / Systems
+  priority: A
+  target_roles: Software, Systems, AI
+  career_url: https://careers.micron.com/
+  ats: unknown
+  active: false
+- name: NXP
+  category: Semiconductor / Hardware / Systems
+  priority: A
+  target_roles: Embedded, Software
+  career_url: https://www.nxp.com/company/about-nxp/careers
+  ats: unknown
+  active: false
+- name: STMicroelectronics
+  category: Semiconductor / Hardware / Systems
+  priority: A
+  target_roles: Embedded, Software
+  career_url: https://www.st.com/content/st_com/en/about/careers.html
+  ats: unknown
+  active: false
+- name: Samsung Electronics
+  category: Semiconductor / Hardware / Systems
+  priority: A
+  target_roles: Software, AI, Systems
+  career_url: https://www.samsung.com/global/careers/
+  ats: unknown
+  active: false
+- name: Siemens
+  category: Semiconductor / Hardware / Systems
+  priority: A
+  target_roles: Software, Automation, AI
+  career_url: https://www.siemens.com/global/en/company/jobs.html
+  ats: unknown
+  active: false
+- name: Siemens EDA
+  category: Semiconductor / Hardware / Systems
+  priority: A
+  target_roles: EDA, Software, AI
+  career_url: https://jobs.sw.siemens.com/
+  ats: unknown
+  active: false
+- name: Synopsys
+  category: Semiconductor / Hardware / Systems
+  priority: A
+  target_roles: EDA, Software, AI
+  career_url: https://www.synopsys.com/careers.html
+  ats: unknown
+  active: false
+- name: Texas Instruments
+  category: Semiconductor / Hardware / Systems
+  priority: A
+  target_roles: Embedded, Software, Systems
+  career_url: https://careers.ti.com/
+  ats: unknown
+  active: false
+- name: Analog Devices
+  category: Semiconductor / Hardware / Systems
+  priority: B
+  target_roles: Embedded, Software
+  career_url: https://www.analog.com/en/about-adi/careers.html
+  ats: unknown
+  active: false
+- name: Applied Materials
+  category: Semiconductor / Hardware / Systems
+  priority: B
+  target_roles: Software, Systems
+  career_url: https://careers.appliedmaterials.com/
+  ats: unknown
+  active: false
+- name: GE Aerospace
+  category: Semiconductor / Hardware / Systems
+  priority: B
+  target_roles: Software, AI, Systems
+  career_url: https://careers.geaerospace.com/
+  ats: unknown
+  active: false
+- name: KLA
+  category: Semiconductor / Hardware / Systems
+  priority: B
+  target_roles: Software, Systems, AI
+  career_url: https://www.kla.com/careers
+  ats: unknown
+  active: false
+- name: Lam Research
+  category: Semiconductor / Hardware / Systems
+  priority: B
+  target_roles: Software, Systems
+  career_url: https://careers.lamresearch.com/
+  ats: unknown
+  active: false
+- name: Microchip
+  category: Semiconductor / Hardware / Systems
+  priority: B
+  target_roles: Embedded, Software
+  career_url: https://www.microchip.com/en-us/about/careers
+  ats: unknown
+  active: false
+- name: Renesas
+  category: Semiconductor / Hardware / Systems
+  priority: B
+  target_roles: Embedded, Software
+  career_url: https://jobs.renesas.com/
+  ats: unknown
+  active: false
+- name: ZF
+  category: Semiconductor / Hardware / Systems
+  priority: B
+  target_roles: Software, Embedded, Systems
+  career_url: https://jobs.zf.com/
+  ats: unknown
+  active: false
+- name: Supabase
+  category: Remote / Global Developer & AI Startups
+  priority: S
+  target_roles: Backend, Postgres, Full Stack
+  career_url: https://supabase.com/careers
+  ats: ashby
+  active: true
+  slug: supabase
+- name: Vercel
+  category: Remote / Global Developer & AI Startups
+  priority: S
+  target_roles: Frontend, Full Stack, Cloud
+  career_url: https://vercel.com/careers
+  ats: greenhouse
+  active: true
+  slug: vercel
+- name: Airbyte
+  category: Remote / Global Developer & AI Startups
+  priority: A
+  target_roles: Data, Backend, Full Stack
+  career_url: https://airbyte.com/careers
+  ats: unknown
+  active: false
+- name: Appwrite
+  category: Remote / Global Developer & AI Startups
+  priority: A
+  target_roles: Full Stack, Cloud, Open Source
+  career_url: https://appwrite.io/careers
+  ats: unknown
+  active: false
+- name: Astronomer
+  category: Remote / Global Developer & AI Startups
+  priority: A
+  target_roles: Data, Python, Cloud
+  career_url: https://www.astronomer.io/careers/
+  ats: unknown
+  active: false
+- name: Cal.com
+  category: Remote / Global Developer & AI Startups
+  priority: A
+  target_roles: Full Stack, TypeScript
+  career_url: https://cal.com/careers
+  ats: unknown
+  active: false
+- name: Clerk
+  category: Remote / Global Developer & AI Startups
+  priority: A
+  target_roles: Full Stack, Auth, Backend
+  career_url: https://clerk.com/careers
+  ats: unknown
+  active: false
+- name: Convex
+  category: Remote / Global Developer & AI Startups
+  priority: A
+  target_roles: Backend, TypeScript, Cloud
+  career_url: https://www.convex.dev/careers
+  ats: unknown
+  active: false
+- name: Dagster Labs
+  category: Remote / Global Developer & AI Startups
+  priority: A
+  target_roles: Data, Python, Backend
+  career_url: https://dagster.io/careers
+  ats: unknown
+  active: false
+- name: Directus
+  category: Remote / Global Developer & AI Startups
+  priority: A
+  target_roles: Full Stack, Backend, Open Source
+  career_url: https://directus.io/careers
+  ats: unknown
+  active: false
+- name: Inngest
+  category: Remote / Global Developer & AI Startups
+  priority: A
+  target_roles: Backend, TypeScript, Distributed
+  career_url: https://www.inngest.com/careers
+  ats: unknown
+  active: false
+- name: Linear
+  category: Remote / Global Developer & AI Startups
+  priority: A
+  target_roles: Full Stack, Product, AI
+  career_url: https://linear.app/careers
+  ats: ashby
+  active: true
+  slug: linear
+- name: Liveblocks
+  category: Remote / Global Developer & AI Startups
+  priority: A
+  target_roles: React, TypeScript, Backend
+  career_url: https://liveblocks.io/careers
+  ats: unknown
+  active: false
+- name: Neon
+  category: Remote / Global Developer & AI Startups
+  priority: A
+  target_roles: Postgres, Backend, Cloud
+  career_url: https://neon.tech/careers
+  ats: unknown
+  active: false
+- name: Novu
+  category: Remote / Global Developer & AI Startups
+  priority: A
+  target_roles: TypeScript, Full Stack, Open Source
+  career_url: https://novu.co/careers
+  ats: unknown
+  active: false
+- name: PostHog
+  category: Remote / Global Developer & AI Startups
+  priority: A
+  target_roles: Full Stack, Data, Product
+  career_url: https://posthog.com/careers
+  ats: ashby
+  active: true
+  slug: posthog
+- name: Railway
+  category: Remote / Global Developer & AI Startups
+  priority: A
+  target_roles: Cloud, Backend, DevOps
+  career_url: https://railway.com/careers
+  ats: unknown
+  active: false
+- name: Render
+  category: Remote / Global Developer & AI Startups
+  priority: A
+  target_roles: Cloud, Backend, DevOps
+  career_url: https://render.com/careers
+  ats: unknown
+  active: false
+- name: Temporal
+  category: Remote / Global Developer & AI Startups
+  priority: A
+  target_roles: Distributed Systems, Backend
+  career_url: https://temporal.io/careers
+  ats: unknown
+  active: false
+- name: Trigger.dev
+  category: Remote / Global Developer & AI Startups
+  priority: A
+  target_roles: TypeScript, Backend, AI
+  career_url: https://trigger.dev/careers
+  ats: unknown
+  active: false
+- name: dbt Labs
+  category: Remote / Global Developer & AI Startups
+  priority: A
+  target_roles: Data, Python, SWE
+  career_url: https://www.getdbt.com/careers
+  ats: unknown
+  active: false
+- name: Grafbase
+  category: Remote / Global Developer & AI Startups
+  priority: B
+  target_roles: Backend, GraphQL, Cloud
+  career_url: https://grafbase.com/careers
+  ats: unknown
+  active: false
+- name: Meilisearch
+  category: Remote / Global Developer & AI Startups
+  priority: B
+  target_roles: Search, Backend, Rust
+  career_url: https://www.meilisearch.com/careers
+  ats: unknown
+  active: false
+- name: Prefect
+  category: Remote / Global Developer & AI Startups
+  priority: B
+  target_roles: Python, Data, Backend
+  career_url: https://www.prefect.io/careers
+  ats: unknown
+  active: false
+- name: Turso
+  category: Remote / Global Developer & AI Startups
+  priority: B
+  target_roles: Database, Backend, Rust
+  career_url: https://turso.tech/careers
+  ats: unknown
+  active: false

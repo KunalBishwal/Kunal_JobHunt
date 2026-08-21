@@ -1,0 +1,41 @@
+{
+  "name": "Kunal Bishwal",
+  "current_title": "Full Stack Developer Intern",
+  "years_experience": 0.25,
+  "core_skills": [
+    "Python",
+    "React",
+    "Next.js",
+    "TypeScript",
+    "Node.js",
+    "REST APIs",
+    "Docker",
+    "AWS (EC2, S3, RDS)",
+    "TensorFlow",
+    "PyTorch",
+    "PostgreSQL",
+    "Flask",
+    "Java",
+    "Tailwind CSS",
+    "Transfer Learning / CNN"
+  ],
+  "domains": [
+    "Full-Stack Web Development",
+    "Applied AI / Computer Vision",
+    "Cloud & DevOps"
+  ],
+  "notable_projects": [
+    "ChickTech-AI: Trained a multi-class CNN using transfer learning that improved disease detection accuracy from 85% to 98.2% and reduced API latency by 30%.",
+    "Ascend Career: Developed a full-stack career roadmap generator integrating Sarvam AI voice support with low-latency chunking.",
+    "Synapse UI: Built a modular workspace platform parsing natural-language prompts via Groq APIs into dynamic dashboard layouts with PostgreSQL."
+  ],
+  "education": "B.Tech in Computer Science Engineering, SRM Institute of Science and Technology (2023–2027, CGPA: 9.65)",
+  "target_titles": [
+    "Software Engineering Intern",
+    "Full Stack Developer Intern",
+    "AI/ML Engineer Intern",
+    "Backend Developer Intern",
+    "Frontend Developer Intern"
+  ],
+  "seniority": "intern"
+}

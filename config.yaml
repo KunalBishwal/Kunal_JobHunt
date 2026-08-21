@@ -1,0 +1,363 @@
+# PWP JobHunt configuration
+# Tailored for Kunal Bishwal
+#
+# Experience: 0-1 YOE
+# Current profile: Full Stack Developer Intern
+# Seniority: Internship / Entry Level
+#
+# Primary targets:
+#   - Software Engineering Intern
+#   - SDE Intern
+#   - Full Stack Developer Intern
+#   - Full Stack Engineer Intern
+#   - Backend Developer / Engineer Intern
+#   - Frontend Developer / Engineer Intern
+#   - AI/ML Engineer Intern
+#   - Machine Learning Intern
+#   - Applied AI Intern
+#   - GenAI / LLM Intern
+#
+# Secondary targets:
+#   - Software Engineer
+#   - SDE
+#   - Associate Software Engineer
+#   - Junior Software Engineer
+#   - Graduate / Entry-Level Engineer
+#
+# Locations:
+#   - Bangalore / Bengaluru
+#   - Hyderabad
+#   - India
+#   - Chennai
+#   - Ahmedabad
+#   - Delhi / New Delhi
+#   - Noida
+#   - Gurgaon / Gurugram
+#   - Bhubaneswar
+#   - Vadodara
+#   - Remote India
+
+
+filters:
+
+  # --------------------------------------------------------------------------
+  # JOB TITLE INCLUDES
+  # --------------------------------------------------------------------------
+  #
+  # A title must match at least one include AND zero excludes.
+  #
+  # These filters are intentionally broad because the LLM is responsible
+  # for determining the actual fit from the JD.
+
+  include_titles:
+
+    # ========================================================================
+    # SOFTWARE ENGINEERING / SDE
+    # ========================================================================
+
+    - '\bsde\b'
+    - '\bsde\s*-?\s*(i|ii|iii|1|2|3)\b'
+    - 'software engineer'
+    - 'software engineering'
+    - 'software development engineer'
+    - 'software developer'
+    - 'software development'
+    - '\bapplication engineer\b'
+    - '\bproduct engineer\b'
+
+    # Internship-specific software roles
+    - 'software engineer intern'
+    - 'software engineering intern'
+    - 'software development engineer intern'
+    - 'software developer intern'
+    - 'sde intern'
+
+
+    # ========================================================================
+    # FULL STACK
+    # ========================================================================
+
+    - 'full[- ]stack'
+    - 'fullstack'
+    - 'full stack developer'
+    - 'full stack engineer'
+    - 'full-stack developer'
+    - 'full-stack engineer'
+
+    - 'full[- ]stack.*intern'
+    - 'fullstack.*intern'
+
+
+    # ========================================================================
+    # BACKEND
+    # ========================================================================
+
+    - '\bbackend\b'
+    - '\bback[- ]end\b'
+    - '\bserver[- ]side\b'
+
+    - '\bbackend\b.*\bengineer\b'
+    - '\bbackend\b.*\bdeveloper\b'
+    - '\bback[- ]end\b.*\bengineer\b'
+    - '\bback[- ]end\b.*\bdeveloper\b'
+    - '\bserver[- ]side\b.*\bengineer\b'
+    - '\bserver[- ]side\b.*\bdeveloper\b'
+
+    # Backend internship roles
+    - 'backend.*intern'
+    - 'back[- ]end.*intern'
+    - 'server[- ]side.*intern'
+
+    # Backend technology roles
+    - '\bpython\b.*\bengineer\b'
+    - '\bpython\b.*\bdeveloper\b'
+    - '\bnode\.?js\b.*\bengineer\b'
+    - '\bnode\.?js\b.*\bdeveloper\b'
+    - '\bexpress\.?js\b.*\bengineer\b'
+    - '\bexpress\.?js\b.*\bdeveloper\b'
+    - '\bspring boot\b.*\bengineer\b'
+    - '\bspring boot\b.*\bdeveloper\b'
+
+
+    # ========================================================================
+    # FRONTEND
+    # ========================================================================
+
+    - '\bfrontend\b'
+    - '\bfront[- ]end\b'
+    - '\bweb frontend\b'
+    - '\bweb engineer\b'
+    - '\bweb developer\b'
+
+    - '\bfrontend\b.*\bengineer\b'
+    - '\bfrontend\b.*\bdeveloper\b'
+    - '\bfront[- ]end\b.*\bengineer\b'
+    - '\bfront[- ]end\b.*\bdeveloper\b'
+
+    # Frontend internship roles
+    - 'frontend.*intern'
+    - 'front[- ]end.*intern'
+
+    # Frontend technology roles
+    - '\breact\b.*\bengineer\b'
+    - '\breact\b.*\bdeveloper\b'
+    - '\bnext\.?js\b.*\bengineer\b'
+    - '\bnext\.?js\b.*\bdeveloper\b'
+    - '\bjavascript\b.*\bengineer\b'
+    - '\bjavascript\b.*\bdeveloper\b'
+    - '\btypescript\b.*\bengineer\b'
+    - '\btypescript\b.*\bdeveloper\b'
+
+
+    # ========================================================================
+    # AI / ML / APPLIED AI
+    # ========================================================================
+
+    - '\bai\b.*\bengineer\b'
+    - '\bai\b.*\bdeveloper\b'
+    - '\bartificial intelligence\b.*\bengineer\b'
+    - '\bartificial intelligence\b.*\bdeveloper\b'
+
+    - '\bmachine learning\b.*\bengineer\b'
+    - '\bmachine learning\b.*\bdeveloper\b'
+    - '\bml\b.*\bengineer\b'
+    - '\bml\b.*\bdeveloper\b'
+
+    - '\bapplied ai\b'
+    - '\bapplied machine learning\b'
+    - '\bai\/ml\b'
+
+    - '\bgenai\b'
+    - '\bgenerative ai\b'
+
+    - '\bllm\b.*\bengineer\b'
+    - '\bllm\b.*\bdeveloper\b'
+    - '\bllm\b.*\bintern\b'
+
+    - '\bai software engineer\b'
+    - '\bsoftware engineer\b.*\bai\b'
+    - '\bsoftware engineer\b.*\bml\b'
+    - '\bsoftware engineer\b.*\bgenai\b'
+
+    # AI / ML internship roles
+    - 'ai.*intern'
+    - 'artificial intelligence.*intern'
+    - 'machine learning.*intern'
+    - '\bml\b.*intern'
+    - 'ai\/ml.*intern'
+    - 'applied ai.*intern'
+    - 'generative ai.*intern'
+    - 'genai.*intern'
+
+
+    # ========================================================================
+    # ENTRY LEVEL / GRADUATE
+    # ========================================================================
+
+    - '\bgraduate software engineer\b'
+    - '\bgraduate engineer\b'
+    - '\bnew grad\b'
+    - '\bnew graduate\b'
+    - '\bentry[- ]level\b.*\bengineer\b'
+    - '\bentry[- ]level\b.*\bdeveloper\b'
+    - '\bassociate software engineer\b'
+    - '\bassociate engineer\b'
+    - '\bassociate developer\b'
+    - '\bjunior software engineer\b'
+    - '\bjunior developer\b'
+    - '\bjunior engineer\b'
+
+
+  # --------------------------------------------------------------------------
+  # JOB TITLE EXCLUDES
+  # --------------------------------------------------------------------------
+  #
+  # IMPORTANT:
+  # Internship is intentionally NOT excluded because internships are a
+  # primary target.
+  #
+
+  exclude_titles:
+
+    # ========================================================================
+    # TOO SENIOR
+    # ========================================================================
+
+    - '\b(staff|principal|distinguished|fellow)\b'
+    - '\barchitect\b'
+    - '\bsenior\b'
+    - '\bsr\.?\b'
+    - '\btech lead\b'
+    - '\blead engineer\b'
+    - '\btechnical lead\b'
+
+
+    # ========================================================================
+    # MANAGEMENT
+    # ========================================================================
+
+    - '\bmanager\b'
+    - '\bmanagement\b'
+    - '\bdirector\b'
+    - '\bvp\b'
+    - '\bvice president\b'
+    - '\bhead of\b'
+    - '\bchief\b'
+    - '\bcto\b'
+
+
+    # ========================================================================
+    # NON-ENGINEERING
+    # ========================================================================
+
+    - '\bsales\b'
+    - '\baccount executive\b'
+    - '\bmarketing\b'
+    - '\brecruit\b'
+    - '\brecruiter\b'
+    - '\bsupport\b'
+    - '\bcustomer success\b'
+    - '\bsuccess manager\b'
+    - '\baccount manager\b'
+
+
+    # ========================================================================
+    # MOBILE / DESIGN / GAME
+    # ========================================================================
+
+    - '\bios\b'
+    - '\bandroid\b'
+    - '\bmobile\b'
+    - '\bgame\b'
+    - '\bgames\b'
+    - '\bdesigner\b'
+    - '\bui\/ux\b'
+    - '\bux designer\b'
+    - '\bproduct designer\b'
+
+
+    # ========================================================================
+    # PURE RESEARCH / DATA SCIENCE
+    # ========================================================================
+
+    - '\bdata scientist\b'
+    - '\bmachine learning scientist\b'
+    - '\bresearch scientist\b'
+
+
+    # ========================================================================
+    # QUANT / TRADING SPECIFIC (engineering at banks is ALLOWED)
+    # ========================================================================
+
+    - '\bquant(?:itative)?\s+(?:research(?:er)?|trad(?:er|ing)|developer|analyst)\b'
+    - '\bhft\s+(?:trad(?:er|ing)|developer)\b'
+    - '\balgorithmic\s+trad(?:er|ing)\b'
+    - '\btrading\s+strategist\b'
+
+
+  # --------------------------------------------------------------------------
+  # LOCATIONS
+  # --------------------------------------------------------------------------
+
+  locations:
+    - bangalore
+    - bengaluru
+    - hyderabad
+    - pune
+    - mumbai
+    - chennai
+    - ahmedabad
+    - delhi
+    - new delhi
+    - noida
+    - gurgaon
+    - gurugram
+    - bhubaneswar
+    - bhubaneshwar
+    - vadodara
+    - india
+    - remote in
+    - remote india
+
+  allow_remote: true
+
+  # Only consider reasonably recent jobs.
+  max_age_days: 30
+
+
+# ------------------------------------------------------------------------------
+# 10-JOB SELECTION & LLM STAGES
+# ------------------------------------------------------------------------------
+
+# Daily targets and thresholds
+target_jobs_per_digest: 10
+preferred_score_threshold: 7.0
+fallback_score_threshold: 6.0
+hard_min_score: 5.5
+max_jobs_per_company: 1
+
+# Legacy alias
+score_threshold: 7.0
+
+# Number of detailed application kits drafted per digest
+draft_top_n: 5
+
+# Number of jobs processed per screening call
+screen_batch_size: 8
+
+# Enough JD context to evaluate a fresher/internship candidate
+screen_jd_chars: 1800
+
+# Larger context for application material generation
+draft_jd_chars: 6000
+
+
+# ------------------------------------------------------------------------------
+# PATHS
+# ------------------------------------------------------------------------------
+
+companies_file: companies.yaml
+profile_file: profile.json
+seen_file: seen.json
+digest_file: out/digest.html
+tracker_csv: out/tracker.csv
