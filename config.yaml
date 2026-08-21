@@ -342,11 +342,11 @@ score_threshold: 6.5
 # Number of detailed application kits drafted per digest
 draft_top_n: 5
 
-# Number of jobs processed per screening call
-screen_batch_size: 8
+# Number of jobs processed per screening call (kept small for Groq free-tier TPM)
+screen_batch_size: 3
 
-# Enough JD context to evaluate a fresher/internship candidate
-screen_jd_chars: 2500
+# Enough JD context to evaluate a fresher/internship candidate (capped for Groq TPM)
+screen_jd_chars: 1200
 
 # Larger context for application material generation
 draft_jd_chars: 6000

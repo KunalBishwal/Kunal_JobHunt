@@ -183,7 +183,7 @@ def _complete_with_fallback(
         p_name = getattr(provider, "name", "")
         if p_name != "groq" and os.getenv("GROQ_API_KEY"):
             backup_provider_name = "groq"
-            backup_model = "qwen/qwen3.6-27b"
+            backup_model = "llama-3.1-8b-instant"
         elif p_name != "gemini" and os.getenv("GEMINI_API_KEY"):
             backup_provider_name = "gemini"
             backup_model = "gemini-3.6-flash"
@@ -251,7 +251,9 @@ def screen(jobs: list[Job], profile: dict, batch_size: int = 8, jd_chars: int = 
 
         print(f"  screened {min(start + batch_size, len(jobs))}/{len(jobs)}")
         if idx < total_batches - 1 and getattr(provider, "name", "") not in ("stub", "mock", "test"):
-            time.sleep(2.5)
+            # Groq free-tier has tight TPM limits; pace more aggressively
+            pace = 15.0 if getattr(provider, "name", "") == "groq" else 2.5
+            time.sleep(pace)
 
     return jobs
 
